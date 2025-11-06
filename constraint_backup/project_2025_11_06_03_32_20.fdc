@@ -1,0 +1,11 @@
+create_clock -name {clk} [get_ports {clk}] -period {37.000} -waveform {0.000 18.500} -add
+
+create_clock -name {clk_64M} [get_pins PLL/clkout0] -period {15.625} -waveform {0.000 7.8125}
+create_clock -name {clk_6M} [get_pins PLL/clkout1] -period {166.666} -waveform {0.000 83.333}
+
+
+define_attribute {p:clk} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:clk} {PAP_IO_LOC} {D18}
+define_attribute {p:clk} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:clk} {PAP_IO_STANDARD} {LVCMOS33}
+define_attribute {p:clk} {PAP_IO_UNUSED} {TRUE}

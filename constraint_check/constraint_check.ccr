@@ -1,0 +1,49 @@
+##### Written on 2025/11/06 03:39:43 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PG2L100H-6FBG676
+
+Top Module : 
+	top
+
+Constraint File(s) : 
+	C:/Users/27102/Desktop/pds project/project/project.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 0 critical warning(s), 10 warning(s), out of 20 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+Constraints with issues:
+********************************************
+
+
+Issues without commands:
+********************************************
+
+
+Unconstrained ports:
+********************************************
+
+W: ConstraintEditor-4019: Port Bus 'adc1' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port Bus 'adc2' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port Bus 'led' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'A1' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'B1' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'adc1_clk' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'adc2_clk' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'hmi_rx' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'hmi_tx' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rst' unspecified I/O constraint.
+
+Constraints with matching wildcard expressions:
+********************************************
+
+

@@ -1,0 +1,33 @@
+version,2022.2-SP6.4<build 146967>
+project name,project.pds
+
+Single Seed:
+Seed,State,Convergence,Setup(Slow),Setup(Fast),Hold(Slow),Hold(Fast),Recovery(Slow),Recovery(Fast),Removal(Slow),Removal(Fast),PBM-GP,PBM-PreGP,PBM-PostGP,LP,Total Placement Cpu Time,Detailed routing,Total Routing Cpu Time,Wire Length After Post-GP,Wire Length After LP,Wire Length After DP,Routing Arc Length,Worst Slack After GP Timing,Worst Slack After LP Timing,Worst Slack Before RP,Worst Slack Before DP,Worst Slack After DP,Worst Slack After Placement,Worst Slack After TA By Preroute,TNS After DP,TNS Before Route,Setup(Slow) Total Failing TNS,Setup(Slow) Total Failing Endpoints,Hold(Slow) Total Failing THS,Hold(Slow) Total Failing Endpoints,Power
+single,OK,OK,0.860,2.421,0.123,0.101,162.869,164.196,0.650,0.455,NA,NA,NA,1.25,94.16,138.72,213.80,NA,NA,NA,704512,NA,NA,1628,1628,1628,1628,NA,0,0,0.000,0,0.000,0,NA
+Pass Rate/Convergence Rate,100.00%,100.00%
+
+Synthesize:
+control_set,177
+Synthesize Performance Summary:
+slack category,Synthesize Setup WNS,Synthesize Setup TNS,Synthesize Recovery WNS,Synthesize Recovery TNS
+slack value,1.609,0.000,NA,NA
+Synthesize Process Cpu Time,0h:2m:14s
+
+Device Map:
+Device Map Resource Usage Summary:
+Logic Utilization,LUT,FF,DRM,APM,Distributed RAM,HSSTHP,USCM,HCKB,RCKB
+Used,45155,38930,16.5,216,75,NA,3,0,0
+Available,66600,133200,155,240,19900,NA,32,96,24
+Utilization(%),68%,30%,11%,90%,1%,NA,10%,0%,0%
+Device Map Process Cpu Time,0h:0m:32s
+
+Project Configurations:
+top module,top
+compile,
+synthesize," -ads "
+device map,
+place & route,
+
+Test Parameters Configurations:
+testparam,
+

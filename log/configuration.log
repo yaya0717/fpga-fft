@@ -1,0 +1,2398 @@
+[Info] [2025-10-24 20:01:33] /***************************Start Configuration***************************/
+[Info] [2025-10-24 20:01:33] Path: D:/lab/app/PDS/PDS_2022.2-SP6.4/bin
+[Info] [2025-10-24 20:01:33] Version: 146967
+[Info] [2025-10-24 20:01:34] Current Path: D:/lab/FPGA/PDS/FPGA_game/project
+[Info] [2025-10-24 20:01:34] PDS Dir Path: D:/lab/FPGA/PDS/FPGA_game/project
+[Info] [2025-10-24 20:01:39] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-10-24 20:01:39] Client Local host name:DESKTOP-5FU19C0
+[Debug] [2025-10-24 20:01:39] Client Local Address:192.168.137.70
+[Debug] [2025-10-24 20:01:39] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-10-24 20:01:39] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-10-24 20:01:39] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-10-24 20:01:39] Finish.
+[Info] [2025-10-24 20:01:39] Connect server succeeded
+[Debug] [2025-10-24 20:01:39] Send RPC:1
+[Debug] [2025-10-24 20:01:39] Send cmd [check version information:40004] OK
+[Debug] [2025-10-24 20:01:39] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-10-24 20:01:39] Send RPC:2
+[Debug] [2025-10-24 20:01:39] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-10-24 20:01:39] Begin to send initialize chain cmd...
+[Debug] [2025-10-24 20:01:39] Send RPC:3
+[Debug] [2025-10-24 20:01:39] Send cmd [Open config cable:20001] OK
+[Debug] [2025-10-24 20:01:39] End to send initialize chain cmd.
+[Debug] [2025-10-24 20:01:39] COMMAND[check version information] execute successfully, takes 0.2 secs.
+[Debug] [2025-10-24 20:01:39] Log::Print : COMMAND[check version information] execute successfully, takes 0.2 secs.
+[Debug] [2025-10-24 20:01:40] COMMAND[get_cable_paras] execute successfully, takes 1.0 secs.
+[Debug] [2025-10-24 20:01:40] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-10-24 20:01:40] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.0 secs.
+[Debug] [2025-10-24 20:01:41] begin the exec of open cable cmd...
+[Debug] [2025-10-24 20:01:41] Begin to deal with chain from server...
+[Debug] [2025-10-24 20:01:41] Begin to set user chain...
+[Debug] [2025-10-24 20:01:41] End to set user chain.
+[Debug] [2025-10-24 20:01:41] Begin to update graphic item and tree item ...
+[Debug] [2025-10-24 20:01:41] End to update graphic item and tree item ...
+[Debug] [2025-10-24 20:01:41] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-10-24 20:01:41] Log::Print : PG2L100H
+[Debug] [2025-10-24 20:01:41] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-10-24 20:01:42] set OpenLastPath: D:/lab/FPGA/PDS/FPGA_game/project/generate_bitstream/top.sbit
+[Debug] [2025-10-24 20:01:42] begin to get device info from CFG file...
+[Debug] [2025-10-24 20:01:42] end to get device info from CFG file...
+[Debug] [2025-10-24 20:01:42] Begin to update graphic item and tree item ...
+[Debug] [2025-10-24 20:01:42] End to update graphic item and tree item ...
+[Debug] [2025-10-24 20:01:42] Begin to update graphic item and tree item ...
+[Debug] [2025-10-24 20:01:42] End to update graphic item and tree item ...
+[Debug] [2025-10-24 20:01:42] End to deal wiht chain from server.
+[Debug] [2025-10-24 20:01:42] end the exec of open cable cmd.
+[Debug] [2025-10-24 20:01:42] COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2025-10-24 20:01:42] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2025-10-24 20:01:44] Begin to send programming cmd...
+[Debug] [2025-10-24 20:01:44] Send RPC:4
+[Debug] [2025-10-24 20:01:44] Begin to send program data.
+[Debug] [2025-10-24 20:01:44] End to send program data.
+[Debug] [2025-10-24 20:01:44] Send cmd [Program:20002] OK
+[Debug] [2025-10-24 20:01:44] The value of Progress is 6
+[Debug] [2025-10-24 20:01:44] The value of Progress is 10
+[Debug] [2025-10-24 20:01:44] The value of Progress is 15
+[Debug] [2025-10-24 20:01:45] The value of Progress is 20
+[Debug] [2025-10-24 20:01:45] The value of Progress is 25
+[Debug] [2025-10-24 20:01:45] The value of Progress is 30
+[Debug] [2025-10-24 20:01:45] The value of Progress is 35
+[Debug] [2025-10-24 20:01:45] The value of Progress is 40
+[Debug] [2025-10-24 20:01:45] The value of Progress is 45
+[Debug] [2025-10-24 20:01:46] The value of Progress is 50
+[Debug] [2025-10-24 20:01:46] The value of Progress is 55
+[Debug] [2025-10-24 20:01:46] The value of Progress is 60
+[Debug] [2025-10-24 20:01:46] The value of Progress is 65
+[Debug] [2025-10-24 20:01:46] The value of Progress is 70
+[Debug] [2025-10-24 20:01:46] The value of Progress is 75
+[Debug] [2025-10-24 20:01:47] The value of Progress is 80
+[Debug] [2025-10-24 20:01:47] The value of Progress is 85
+[Debug] [2025-10-24 20:01:47] The value of Progress is 90
+[Debug] [2025-10-24 20:01:47] The value of Progress is 95
+[Debug] [2025-10-24 20:01:47] The value of Progress is 100
+[Debug] [2025-10-24 20:01:47] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-24 20:01:47] End to send programming cmd.
+[Debug] [2025-10-24 20:01:47] Log::Print : The done bit is 1
+[Debug] [2025-10-24 20:01:47] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-10-24 20:05:19] /***************************End Configration***************************/
+[Info] [2025-10-26 21:45:52] /***************************Start Configuration***************************/
+[Info] [2025-10-26 21:45:52] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-10-26 21:45:52] Version: 146967
+[Info] [2025-10-26 21:45:53] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-10-26 21:45:53] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-10-26 21:45:56] /***************************End Configration***************************/
+[Info] [2025-10-28 19:54:47] /***************************Start Configuration***************************/
+[Info] [2025-10-28 19:54:47] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-10-28 19:54:47] Version: 146967
+[Info] [2025-10-28 19:54:48] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-10-28 19:54:48] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-10-28 19:54:56] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-10-28 19:54:56] Client Local host name:yanxi
+[Debug] [2025-10-28 19:54:56] Client Local Address:10.28.163.198
+[Debug] [2025-10-28 19:54:56] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-10-28 19:54:56] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-10-28 19:54:57] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-10-28 19:54:57] Finish.
+[Info] [2025-10-28 19:54:57] Connect server succeeded
+[Debug] [2025-10-28 19:54:57] Send RPC:1
+[Debug] [2025-10-28 19:54:57] Send cmd [check version information:40004] OK
+[Debug] [2025-10-28 19:54:57] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-10-28 19:54:58] Send RPC:2
+[Debug] [2025-10-28 19:54:58] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-10-28 19:54:58] Begin to send initialize chain cmd...
+[Debug] [2025-10-28 19:54:58] Send RPC:3
+[Debug] [2025-10-28 19:54:58] Send cmd [Open config cable:20001] OK
+[Debug] [2025-10-28 19:54:58] End to send initialize chain cmd.
+[Debug] [2025-10-28 19:54:58] COMMAND[check version information] execute successfully, takes 0.9 secs.
+[Debug] [2025-10-28 19:54:58] Log::Print : COMMAND[check version information] execute successfully, takes 0.9 secs.
+[Debug] [2025-10-28 19:54:59] COMMAND[get_cable_paras] execute successfully, takes 1.6 secs.
+[Debug] [2025-10-28 19:54:59] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-10-28 19:54:59] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.6 secs.
+[Debug] [2025-10-28 19:55:00] begin the exec of open cable cmd...
+[Debug] [2025-10-28 19:55:00] Begin to deal with chain from server...
+[Debug] [2025-10-28 19:55:00] Begin to set user chain...
+[Debug] [2025-10-28 19:55:00] End to set user chain.
+[Debug] [2025-10-28 19:55:00] Begin to update graphic item and tree item ...
+[Debug] [2025-10-28 19:55:00] End to update graphic item and tree item ...
+[Debug] [2025-10-28 19:55:00] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-10-28 19:55:00] Log::Print : PG2L100H
+[Debug] [2025-10-28 19:55:00] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-10-28 19:55:00] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-10-28 19:55:00] begin to get device info from CFG file...
+[Debug] [2025-10-28 19:55:00] end to get device info from CFG file...
+[Debug] [2025-10-28 19:55:00] Begin to update graphic item and tree item ...
+[Debug] [2025-10-28 19:55:00] End to update graphic item and tree item ...
+[Debug] [2025-10-28 19:55:00] Begin to update graphic item and tree item ...
+[Debug] [2025-10-28 19:55:00] End to update graphic item and tree item ...
+[Debug] [2025-10-28 19:55:00] End to deal wiht chain from server.
+[Debug] [2025-10-28 19:55:00] end the exec of open cable cmd.
+[Debug] [2025-10-28 19:55:00] COMMAND[Open config cable] execute successfully, takes 3.0 secs.
+[Debug] [2025-10-28 19:55:00] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.0 secs.
+[Debug] [2025-10-28 19:55:03] Begin to send programming cmd...
+[Debug] [2025-10-28 19:55:03] Send RPC:4
+[Debug] [2025-10-28 19:55:03] Begin to send program data.
+[Debug] [2025-10-28 19:55:03] End to send program data.
+[Debug] [2025-10-28 19:55:03] Send cmd [Program:20002] OK
+[Debug] [2025-10-28 19:55:03] The value of Progress is 6
+[Debug] [2025-10-28 19:55:03] The value of Progress is 10
+[Debug] [2025-10-28 19:55:03] The value of Progress is 15
+[Debug] [2025-10-28 19:55:03] The value of Progress is 20
+[Debug] [2025-10-28 19:55:04] The value of Progress is 25
+[Debug] [2025-10-28 19:55:04] The value of Progress is 30
+[Debug] [2025-10-28 19:55:04] The value of Progress is 35
+[Debug] [2025-10-28 19:55:04] The value of Progress is 40
+[Debug] [2025-10-28 19:55:04] The value of Progress is 45
+[Debug] [2025-10-28 19:55:04] The value of Progress is 50
+[Debug] [2025-10-28 19:55:05] The value of Progress is 55
+[Debug] [2025-10-28 19:55:05] The value of Progress is 60
+[Debug] [2025-10-28 19:55:05] The value of Progress is 65
+[Debug] [2025-10-28 19:55:05] The value of Progress is 70
+[Debug] [2025-10-28 19:55:05] The value of Progress is 75
+[Debug] [2025-10-28 19:55:05] The value of Progress is 80
+[Debug] [2025-10-28 19:55:05] The value of Progress is 85
+[Debug] [2025-10-28 19:55:06] The value of Progress is 90
+[Debug] [2025-10-28 19:55:06] The value of Progress is 95
+[Debug] [2025-10-28 19:55:06] The value of Progress is 100
+[Debug] [2025-10-28 19:55:06] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 19:55:06] End to send programming cmd.
+[Debug] [2025-10-28 19:55:06] Log::Print : The done bit is 1
+[Debug] [2025-10-28 19:55:06] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 20:04:48] Begin to send programming cmd...
+[Debug] [2025-10-28 20:04:48] Send RPC:5
+[Debug] [2025-10-28 20:04:48] Begin to send program data.
+[Debug] [2025-10-28 20:04:48] End to send program data.
+[Debug] [2025-10-28 20:04:48] Send cmd [Program:20002] OK
+[Debug] [2025-10-28 20:04:48] The value of Progress is 6
+[Debug] [2025-10-28 20:04:48] The value of Progress is 10
+[Debug] [2025-10-28 20:04:48] The value of Progress is 15
+[Debug] [2025-10-28 20:04:49] The value of Progress is 20
+[Debug] [2025-10-28 20:04:49] The value of Progress is 25
+[Debug] [2025-10-28 20:04:49] The value of Progress is 30
+[Debug] [2025-10-28 20:04:49] The value of Progress is 35
+[Debug] [2025-10-28 20:04:49] The value of Progress is 40
+[Debug] [2025-10-28 20:04:49] The value of Progress is 45
+[Debug] [2025-10-28 20:04:50] The value of Progress is 50
+[Debug] [2025-10-28 20:04:50] The value of Progress is 55
+[Debug] [2025-10-28 20:04:50] The value of Progress is 60
+[Debug] [2025-10-28 20:04:50] The value of Progress is 65
+[Debug] [2025-10-28 20:04:50] The value of Progress is 70
+[Debug] [2025-10-28 20:04:50] The value of Progress is 75
+[Debug] [2025-10-28 20:04:51] The value of Progress is 80
+[Debug] [2025-10-28 20:04:51] The value of Progress is 85
+[Debug] [2025-10-28 20:04:51] The value of Progress is 90
+[Debug] [2025-10-28 20:04:51] The value of Progress is 95
+[Debug] [2025-10-28 20:04:51] The value of Progress is 100
+[Debug] [2025-10-28 20:04:51] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 20:04:51] End to send programming cmd.
+[Debug] [2025-10-28 20:04:51] Log::Print : The done bit is 1
+[Debug] [2025-10-28 20:04:51] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 20:18:51] Begin to send programming cmd...
+[Debug] [2025-10-28 20:18:51] Send RPC:6
+[Debug] [2025-10-28 20:18:51] Begin to send program data.
+[Debug] [2025-10-28 20:18:51] End to send program data.
+[Debug] [2025-10-28 20:18:51] Send cmd [Program:20002] OK
+[Debug] [2025-10-28 20:18:52] The value of Progress is 6
+[Debug] [2025-10-28 20:18:52] The value of Progress is 10
+[Debug] [2025-10-28 20:18:52] The value of Progress is 15
+[Debug] [2025-10-28 20:18:52] The value of Progress is 20
+[Debug] [2025-10-28 20:18:52] The value of Progress is 25
+[Debug] [2025-10-28 20:18:53] The value of Progress is 30
+[Debug] [2025-10-28 20:18:53] The value of Progress is 35
+[Debug] [2025-10-28 20:18:53] The value of Progress is 40
+[Debug] [2025-10-28 20:18:53] The value of Progress is 45
+[Debug] [2025-10-28 20:18:53] The value of Progress is 50
+[Debug] [2025-10-28 20:18:53] The value of Progress is 55
+[Debug] [2025-10-28 20:18:54] The value of Progress is 60
+[Debug] [2025-10-28 20:18:54] The value of Progress is 65
+[Debug] [2025-10-28 20:18:54] The value of Progress is 70
+[Debug] [2025-10-28 20:18:54] The value of Progress is 75
+[Debug] [2025-10-28 20:18:54] The value of Progress is 80
+[Debug] [2025-10-28 20:18:54] The value of Progress is 85
+[Debug] [2025-10-28 20:18:54] The value of Progress is 90
+[Debug] [2025-10-28 20:18:55] The value of Progress is 95
+[Debug] [2025-10-28 20:18:55] The value of Progress is 100
+[Debug] [2025-10-28 20:18:55] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 20:18:55] End to send programming cmd.
+[Debug] [2025-10-28 20:18:55] Log::Print : The done bit is 1
+[Debug] [2025-10-28 20:18:55] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 20:31:13] Begin to send programming cmd...
+[Debug] [2025-10-28 20:31:13] Send RPC:7
+[Debug] [2025-10-28 20:31:13] Begin to send program data.
+[Debug] [2025-10-28 20:31:13] End to send program data.
+[Debug] [2025-10-28 20:31:13] Send cmd [Program:20002] OK
+[Debug] [2025-10-28 20:31:13] The value of Progress is 6
+[Debug] [2025-10-28 20:31:13] The value of Progress is 10
+[Debug] [2025-10-28 20:31:13] The value of Progress is 15
+[Debug] [2025-10-28 20:31:14] The value of Progress is 20
+[Debug] [2025-10-28 20:31:14] The value of Progress is 25
+[Debug] [2025-10-28 20:31:14] The value of Progress is 30
+[Debug] [2025-10-28 20:31:14] The value of Progress is 35
+[Debug] [2025-10-28 20:31:14] The value of Progress is 40
+[Debug] [2025-10-28 20:31:14] The value of Progress is 45
+[Debug] [2025-10-28 20:31:14] The value of Progress is 50
+[Debug] [2025-10-28 20:31:15] The value of Progress is 55
+[Debug] [2025-10-28 20:31:15] The value of Progress is 60
+[Debug] [2025-10-28 20:31:15] The value of Progress is 65
+[Debug] [2025-10-28 20:31:15] The value of Progress is 70
+[Debug] [2025-10-28 20:31:15] The value of Progress is 75
+[Debug] [2025-10-28 20:31:15] The value of Progress is 80
+[Debug] [2025-10-28 20:31:16] The value of Progress is 85
+[Debug] [2025-10-28 20:31:16] The value of Progress is 90
+[Debug] [2025-10-28 20:31:16] The value of Progress is 95
+[Debug] [2025-10-28 20:31:16] The value of Progress is 100
+[Debug] [2025-10-28 20:31:16] COMMAND[Program] execute successfully, takes 3.7 secs.
+[Debug] [2025-10-28 20:31:16] End to send programming cmd.
+[Debug] [2025-10-28 20:31:16] Log::Print : The done bit is 1
+[Debug] [2025-10-28 20:31:16] Log::Print : COMMAND[Program] execute successfully, takes 3.7 secs.
+[Debug] [2025-10-28 20:44:04] Begin to send programming cmd...
+[Debug] [2025-10-28 20:44:04] Send RPC:8
+[Debug] [2025-10-28 20:44:04] Begin to send program data.
+[Debug] [2025-10-28 20:44:04] End to send program data.
+[Debug] [2025-10-28 20:44:04] Send cmd [Program:20002] OK
+[Debug] [2025-10-28 20:44:05] The value of Progress is 6
+[Debug] [2025-10-28 20:44:05] The value of Progress is 10
+[Debug] [2025-10-28 20:44:05] The value of Progress is 15
+[Debug] [2025-10-28 20:44:05] The value of Progress is 20
+[Debug] [2025-10-28 20:44:05] The value of Progress is 25
+[Debug] [2025-10-28 20:44:05] The value of Progress is 30
+[Debug] [2025-10-28 20:44:06] The value of Progress is 35
+[Debug] [2025-10-28 20:44:06] The value of Progress is 40
+[Debug] [2025-10-28 20:44:06] The value of Progress is 45
+[Debug] [2025-10-28 20:44:06] The value of Progress is 50
+[Debug] [2025-10-28 20:44:06] The value of Progress is 55
+[Debug] [2025-10-28 20:44:06] The value of Progress is 60
+[Debug] [2025-10-28 20:44:06] The value of Progress is 65
+[Debug] [2025-10-28 20:44:07] The value of Progress is 70
+[Debug] [2025-10-28 20:44:07] The value of Progress is 75
+[Debug] [2025-10-28 20:44:07] The value of Progress is 80
+[Debug] [2025-10-28 20:44:07] The value of Progress is 85
+[Debug] [2025-10-28 20:44:07] The value of Progress is 90
+[Debug] [2025-10-28 20:44:07] The value of Progress is 95
+[Debug] [2025-10-28 20:44:08] The value of Progress is 100
+[Debug] [2025-10-28 20:44:08] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 20:44:08] End to send programming cmd.
+[Debug] [2025-10-28 20:44:08] Log::Print : The done bit is 1
+[Debug] [2025-10-28 20:44:08] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 20:54:33] Begin to send programming cmd...
+[Debug] [2025-10-28 20:54:33] Send RPC:9
+[Debug] [2025-10-28 20:54:33] Begin to send program data.
+[Debug] [2025-10-28 20:54:33] End to send program data.
+[Debug] [2025-10-28 20:54:33] Send cmd [Program:20002] OK
+[Debug] [2025-10-28 20:54:33] The value of Progress is 6
+[Debug] [2025-10-28 20:54:34] The value of Progress is 10
+[Debug] [2025-10-28 20:54:34] The value of Progress is 15
+[Debug] [2025-10-28 20:54:34] The value of Progress is 20
+[Debug] [2025-10-28 20:54:34] The value of Progress is 25
+[Debug] [2025-10-28 20:54:34] The value of Progress is 30
+[Debug] [2025-10-28 20:54:34] The value of Progress is 35
+[Debug] [2025-10-28 20:54:34] The value of Progress is 40
+[Debug] [2025-10-28 20:54:35] The value of Progress is 45
+[Debug] [2025-10-28 20:54:35] The value of Progress is 50
+[Debug] [2025-10-28 20:54:35] The value of Progress is 55
+[Debug] [2025-10-28 20:54:35] The value of Progress is 60
+[Debug] [2025-10-28 20:54:35] The value of Progress is 65
+[Debug] [2025-10-28 20:54:35] The value of Progress is 70
+[Debug] [2025-10-28 20:54:36] The value of Progress is 75
+[Debug] [2025-10-28 20:54:36] The value of Progress is 80
+[Debug] [2025-10-28 20:54:36] The value of Progress is 85
+[Debug] [2025-10-28 20:54:36] The value of Progress is 90
+[Debug] [2025-10-28 20:54:36] The value of Progress is 95
+[Debug] [2025-10-28 20:54:36] The value of Progress is 100
+[Debug] [2025-10-28 20:54:37] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 20:54:37] End to send programming cmd.
+[Debug] [2025-10-28 20:54:37] Log::Print : The done bit is 1
+[Debug] [2025-10-28 20:54:37] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 21:08:49] Begin to send programming cmd...
+[Debug] [2025-10-28 21:08:49] Send RPC:10
+[Debug] [2025-10-28 21:08:49] Begin to send program data.
+[Debug] [2025-10-28 21:08:49] End to send program data.
+[Debug] [2025-10-28 21:08:49] Send cmd [Program:20002] OK
+[Debug] [2025-10-28 21:08:50] The value of Progress is 6
+[Debug] [2025-10-28 21:08:50] The value of Progress is 10
+[Debug] [2025-10-28 21:08:50] The value of Progress is 15
+[Debug] [2025-10-28 21:08:50] The value of Progress is 20
+[Debug] [2025-10-28 21:08:50] The value of Progress is 25
+[Debug] [2025-10-28 21:08:50] The value of Progress is 30
+[Debug] [2025-10-28 21:08:51] The value of Progress is 35
+[Debug] [2025-10-28 21:08:51] The value of Progress is 40
+[Debug] [2025-10-28 21:08:51] The value of Progress is 45
+[Debug] [2025-10-28 21:08:51] The value of Progress is 50
+[Debug] [2025-10-28 21:08:51] The value of Progress is 55
+[Debug] [2025-10-28 21:08:51] The value of Progress is 60
+[Debug] [2025-10-28 21:08:51] The value of Progress is 65
+[Debug] [2025-10-28 21:08:52] The value of Progress is 70
+[Debug] [2025-10-28 21:08:52] The value of Progress is 75
+[Debug] [2025-10-28 21:08:52] The value of Progress is 80
+[Debug] [2025-10-28 21:08:52] The value of Progress is 85
+[Debug] [2025-10-28 21:08:52] The value of Progress is 90
+[Debug] [2025-10-28 21:08:52] The value of Progress is 95
+[Debug] [2025-10-28 21:08:53] The value of Progress is 100
+[Debug] [2025-10-28 21:08:53] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 21:08:53] End to send programming cmd.
+[Debug] [2025-10-28 21:08:53] Log::Print : The done bit is 1
+[Debug] [2025-10-28 21:08:53] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 21:20:56] Begin to send programming cmd...
+[Debug] [2025-10-28 21:20:56] Send RPC:11
+[Debug] [2025-10-28 21:20:56] Begin to send program data.
+[Debug] [2025-10-28 21:20:56] End to send program data.
+[Debug] [2025-10-28 21:20:56] Send cmd [Program:20002] OK
+[Debug] [2025-10-28 21:20:56] The value of Progress is 6
+[Debug] [2025-10-28 21:20:56] The value of Progress is 10
+[Debug] [2025-10-28 21:20:56] The value of Progress is 15
+[Debug] [2025-10-28 21:20:57] The value of Progress is 20
+[Debug] [2025-10-28 21:20:57] The value of Progress is 25
+[Debug] [2025-10-28 21:20:57] The value of Progress is 30
+[Debug] [2025-10-28 21:20:57] The value of Progress is 35
+[Debug] [2025-10-28 21:20:57] The value of Progress is 40
+[Debug] [2025-10-28 21:20:57] The value of Progress is 45
+[Debug] [2025-10-28 21:20:57] The value of Progress is 50
+[Debug] [2025-10-28 21:20:58] The value of Progress is 55
+[Debug] [2025-10-28 21:20:58] The value of Progress is 60
+[Debug] [2025-10-28 21:20:58] The value of Progress is 65
+[Debug] [2025-10-28 21:20:58] The value of Progress is 70
+[Debug] [2025-10-28 21:20:58] The value of Progress is 75
+[Debug] [2025-10-28 21:20:58] The value of Progress is 80
+[Debug] [2025-10-28 21:20:59] The value of Progress is 85
+[Debug] [2025-10-28 21:20:59] The value of Progress is 90
+[Debug] [2025-10-28 21:20:59] The value of Progress is 95
+[Debug] [2025-10-28 21:20:59] The value of Progress is 100
+[Debug] [2025-10-28 21:20:59] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-10-28 21:20:59] End to send programming cmd.
+[Debug] [2025-10-28 21:20:59] Log::Print : The done bit is 1
+[Debug] [2025-10-28 21:20:59] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-10-28 21:21:46] /***************************End Configration***************************/
+[Info] [2025-10-30 21:20:11] /***************************Start Configuration***************************/
+[Info] [2025-10-30 21:20:11] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-10-30 21:20:11] Version: 146967
+[Info] [2025-10-30 21:20:12] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-10-30 21:20:12] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-10-30 21:20:14] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-10-30 21:20:15] Client Local host name:yanxi
+[Debug] [2025-10-30 21:20:15] Client Local Address:192.168.120.1
+[Debug] [2025-10-30 21:20:15] Client Local Address:192.168.72.1
+[Debug] [2025-10-30 21:20:15] Client Local Address:10.28.163.198
+[Debug] [2025-10-30 21:20:15] Client Local Address:172.16.3.11
+[Debug] [2025-10-30 21:20:15] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-10-30 21:20:15] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-10-30 21:20:15] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-10-30 21:20:15] Finish.
+[Info] [2025-10-30 21:20:15] Connect server succeeded
+[Debug] [2025-10-30 21:20:15] Send RPC:1
+[Debug] [2025-10-30 21:20:15] Send cmd [check version information:40004] OK
+[Debug] [2025-10-30 21:20:15] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-10-30 21:20:16] Send RPC:2
+[Debug] [2025-10-30 21:20:16] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-10-30 21:20:16] Begin to send initialize chain cmd...
+[Debug] [2025-10-30 21:20:16] Send RPC:3
+[Debug] [2025-10-30 21:20:16] Send cmd [Open config cable:20001] OK
+[Debug] [2025-10-30 21:20:16] End to send initialize chain cmd.
+[Debug] [2025-10-30 21:20:16] COMMAND[check version information] execute successfully, takes 0.7 secs.
+[Debug] [2025-10-30 21:20:16] Log::Print : COMMAND[check version information] execute successfully, takes 0.7 secs.
+[Debug] [2025-10-30 21:20:17] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2025-10-30 21:20:17] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-10-30 21:20:17] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2025-10-30 21:20:18] begin the exec of open cable cmd...
+[Debug] [2025-10-30 21:20:18] Begin to deal with chain from server...
+[Debug] [2025-10-30 21:20:18] Begin to set user chain...
+[Debug] [2025-10-30 21:20:18] End to set user chain.
+[Debug] [2025-10-30 21:20:18] Begin to update graphic item and tree item ...
+[Debug] [2025-10-30 21:20:18] End to update graphic item and tree item ...
+[Debug] [2025-10-30 21:20:18] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-10-30 21:20:18] Log::Print : PG2L100H
+[Debug] [2025-10-30 21:20:18] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-10-30 21:20:19] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-10-30 21:20:19] begin to get device info from CFG file...
+[Debug] [2025-10-30 21:20:19] end to get device info from CFG file...
+[Debug] [2025-10-30 21:20:19] Begin to update graphic item and tree item ...
+[Debug] [2025-10-30 21:20:19] End to update graphic item and tree item ...
+[Debug] [2025-10-30 21:20:19] Begin to update graphic item and tree item ...
+[Debug] [2025-10-30 21:20:19] End to update graphic item and tree item ...
+[Debug] [2025-10-30 21:20:19] End to deal wiht chain from server.
+[Debug] [2025-10-30 21:20:19] end the exec of open cable cmd.
+[Debug] [2025-10-30 21:20:19] COMMAND[Open config cable] execute successfully, takes 3.0 secs.
+[Debug] [2025-10-30 21:20:19] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.0 secs.
+[Debug] [2025-10-30 21:20:20] Begin to send programming cmd...
+[Debug] [2025-10-30 21:20:20] Send RPC:4
+[Debug] [2025-10-30 21:20:20] Begin to send program data.
+[Debug] [2025-10-30 21:20:20] End to send program data.
+[Debug] [2025-10-30 21:20:20] Send cmd [Program:20002] OK
+[Debug] [2025-10-30 21:20:20] The value of Progress is 6
+[Debug] [2025-10-30 21:20:20] The value of Progress is 10
+[Debug] [2025-10-30 21:20:21] The value of Progress is 15
+[Debug] [2025-10-30 21:20:21] The value of Progress is 20
+[Debug] [2025-10-30 21:20:21] The value of Progress is 25
+[Debug] [2025-10-30 21:20:21] The value of Progress is 30
+[Debug] [2025-10-30 21:20:21] The value of Progress is 35
+[Debug] [2025-10-30 21:20:21] The value of Progress is 40
+[Debug] [2025-10-30 21:20:22] The value of Progress is 45
+[Debug] [2025-10-30 21:20:22] The value of Progress is 50
+[Debug] [2025-10-30 21:20:22] The value of Progress is 55
+[Debug] [2025-10-30 21:20:22] The value of Progress is 60
+[Debug] [2025-10-30 21:20:22] The value of Progress is 65
+[Debug] [2025-10-30 21:20:22] The value of Progress is 70
+[Debug] [2025-10-30 21:20:23] The value of Progress is 75
+[Debug] [2025-10-30 21:20:23] The value of Progress is 80
+[Debug] [2025-10-30 21:20:23] The value of Progress is 85
+[Debug] [2025-10-30 21:20:23] The value of Progress is 90
+[Debug] [2025-10-30 21:20:23] The value of Progress is 95
+[Debug] [2025-10-30 21:20:23] The value of Progress is 100
+[Debug] [2025-10-30 21:20:23] COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-10-30 21:20:23] End to send programming cmd.
+[Debug] [2025-10-30 21:20:23] Log::Print : The done bit is 1
+[Debug] [2025-10-30 21:20:23] Log::Print : COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-10-30 21:58:04] Begin to send programming cmd...
+[Debug] [2025-10-30 21:58:04] Send RPC:5
+[Debug] [2025-10-30 21:58:04] Begin to send program data.
+[Debug] [2025-10-30 21:58:04] End to send program data.
+[Debug] [2025-10-30 21:58:04] Send cmd [Program:20002] OK
+[Debug] [2025-10-30 21:58:05] The value of Progress is 6
+[Debug] [2025-10-30 21:58:05] The value of Progress is 10
+[Debug] [2025-10-30 21:58:05] The value of Progress is 15
+[Debug] [2025-10-30 21:58:05] The value of Progress is 20
+[Debug] [2025-10-30 21:58:05] The value of Progress is 25
+[Debug] [2025-10-30 21:58:05] The value of Progress is 30
+[Debug] [2025-10-30 21:58:06] The value of Progress is 35
+[Debug] [2025-10-30 21:58:06] The value of Progress is 40
+[Debug] [2025-10-30 21:58:06] The value of Progress is 45
+[Debug] [2025-10-30 21:58:06] The value of Progress is 50
+[Debug] [2025-10-30 21:58:06] The value of Progress is 55
+[Debug] [2025-10-30 21:58:06] The value of Progress is 60
+[Debug] [2025-10-30 21:58:07] The value of Progress is 65
+[Debug] [2025-10-30 21:58:07] The value of Progress is 70
+[Debug] [2025-10-30 21:58:07] The value of Progress is 75
+[Debug] [2025-10-30 21:58:07] The value of Progress is 80
+[Debug] [2025-10-30 21:58:07] The value of Progress is 85
+[Debug] [2025-10-30 21:58:07] The value of Progress is 90
+[Debug] [2025-10-30 21:58:07] The value of Progress is 95
+[Debug] [2025-10-30 21:58:08] The value of Progress is 100
+[Debug] [2025-10-30 21:58:08] COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-10-30 21:58:08] End to send programming cmd.
+[Debug] [2025-10-30 21:58:08] Log::Print : The done bit is 1
+[Debug] [2025-10-30 21:58:08] Log::Print : COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-10-30 22:03:37] Begin to send programming cmd...
+[Debug] [2025-10-30 22:03:37] Send RPC:6
+[Debug] [2025-10-30 22:03:37] Begin to send program data.
+[Debug] [2025-10-30 22:03:37] End to send program data.
+[Debug] [2025-10-30 22:03:37] Send cmd [Program:20002] OK
+[Debug] [2025-10-30 22:03:37] The value of Progress is 6
+[Debug] [2025-10-30 22:03:37] The value of Progress is 10
+[Debug] [2025-10-30 22:03:37] The value of Progress is 15
+[Debug] [2025-10-30 22:03:38] The value of Progress is 20
+[Debug] [2025-10-30 22:03:38] The value of Progress is 25
+[Debug] [2025-10-30 22:03:38] The value of Progress is 30
+[Debug] [2025-10-30 22:03:38] The value of Progress is 35
+[Debug] [2025-10-30 22:03:38] The value of Progress is 40
+[Debug] [2025-10-30 22:03:38] The value of Progress is 45
+[Debug] [2025-10-30 22:03:38] The value of Progress is 50
+[Debug] [2025-10-30 22:03:39] The value of Progress is 55
+[Debug] [2025-10-30 22:03:39] The value of Progress is 60
+[Debug] [2025-10-30 22:03:39] The value of Progress is 65
+[Debug] [2025-10-30 22:03:39] The value of Progress is 70
+[Debug] [2025-10-30 22:03:39] The value of Progress is 75
+[Debug] [2025-10-30 22:03:39] The value of Progress is 80
+[Debug] [2025-10-30 22:03:40] The value of Progress is 85
+[Debug] [2025-10-30 22:03:40] The value of Progress is 90
+[Debug] [2025-10-30 22:03:40] The value of Progress is 95
+[Debug] [2025-10-30 22:03:40] The value of Progress is 100
+[Debug] [2025-10-30 22:03:40] COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-10-30 22:03:40] End to send programming cmd.
+[Debug] [2025-10-30 22:03:40] Log::Print : The done bit is 1
+[Debug] [2025-10-30 22:03:40] Log::Print : COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-10-30 22:12:58] Begin to send programming cmd...
+[Debug] [2025-10-30 22:12:58] Send RPC:7
+[Debug] [2025-10-30 22:12:58] Begin to send program data.
+[Debug] [2025-10-30 22:12:58] End to send program data.
+[Debug] [2025-10-30 22:12:58] Send cmd [Program:20002] OK
+[Debug] [2025-10-30 22:12:59] The value of Progress is 6
+[Debug] [2025-10-30 22:12:59] The value of Progress is 10
+[Debug] [2025-10-30 22:12:59] The value of Progress is 15
+[Debug] [2025-10-30 22:12:59] The value of Progress is 20
+[Debug] [2025-10-30 22:12:59] The value of Progress is 25
+[Debug] [2025-10-30 22:13:00] The value of Progress is 30
+[Debug] [2025-10-30 22:13:00] The value of Progress is 35
+[Debug] [2025-10-30 22:13:00] The value of Progress is 40
+[Debug] [2025-10-30 22:13:00] The value of Progress is 45
+[Debug] [2025-10-30 22:13:00] The value of Progress is 50
+[Debug] [2025-10-30 22:13:00] The value of Progress is 55
+[Debug] [2025-10-30 22:13:01] The value of Progress is 60
+[Debug] [2025-10-30 22:13:01] The value of Progress is 65
+[Debug] [2025-10-30 22:13:01] The value of Progress is 70
+[Debug] [2025-10-30 22:13:01] The value of Progress is 75
+[Debug] [2025-10-30 22:13:01] The value of Progress is 80
+[Debug] [2025-10-30 22:13:01] The value of Progress is 85
+[Debug] [2025-10-30 22:13:01] The value of Progress is 90
+[Debug] [2025-10-30 22:13:02] The value of Progress is 95
+[Debug] [2025-10-30 22:13:02] The value of Progress is 100
+[Debug] [2025-10-30 22:13:02] COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-10-30 22:13:02] End to send programming cmd.
+[Debug] [2025-10-30 22:13:02] Log::Print : The done bit is 1
+[Debug] [2025-10-30 22:13:02] Log::Print : COMMAND[Program] execute successfully, takes 3.5 secs.
+[Info] [2025-10-30 22:29:46] /***************************End Configration***************************/
+[Info] [2025-11-1 21:22:55] /***************************Start Configuration***************************/
+[Info] [2025-11-1 21:22:55] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-1 21:22:55] Version: 146967
+[Info] [2025-11-1 21:22:56] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-1 21:22:56] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-1 21:22:58] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-1 21:22:58] Client Local host name:yanxi
+[Debug] [2025-11-1 21:22:58] Client Local Address:192.168.120.1
+[Debug] [2025-11-1 21:22:58] Client Local Address:192.168.72.1
+[Debug] [2025-11-1 21:22:58] Client Local Address:10.28.163.198
+[Debug] [2025-11-1 21:22:58] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-1 21:22:58] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-1 21:22:59] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-1 21:22:59] Finish.
+[Info] [2025-11-1 21:22:59] Connect server succeeded
+[Debug] [2025-11-1 21:22:59] Send RPC:1
+[Debug] [2025-11-1 21:22:59] Send cmd [check version information:40004] OK
+[Debug] [2025-11-1 21:22:59] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-1 21:22:59] Send RPC:2
+[Debug] [2025-11-1 21:22:59] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-1 21:22:59] Begin to send initialize chain cmd...
+[Debug] [2025-11-1 21:22:59] Send RPC:3
+[Debug] [2025-11-1 21:22:59] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-1 21:22:59] End to send initialize chain cmd.
+[Debug] [2025-11-1 21:22:59] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-1 21:22:59] Log::Print : COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-1 21:23:01] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-1 21:23:01] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-1 21:23:01] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-1 21:23:01] begin the exec of open cable cmd...
+[Debug] [2025-11-1 21:23:01] Begin to deal with chain from server...
+[Debug] [2025-11-1 21:23:01] Begin to set user chain...
+[Debug] [2025-11-1 21:23:01] End to set user chain.
+[Debug] [2025-11-1 21:23:01] Begin to update graphic item and tree item ...
+[Debug] [2025-11-1 21:23:01] End to update graphic item and tree item ...
+[Debug] [2025-11-1 21:23:01] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-1 21:23:01] Log::Print : PG2L100H
+[Debug] [2025-11-1 21:23:01] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-11-1 21:23:02] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-1 21:23:02] begin to get device info from CFG file...
+[Debug] [2025-11-1 21:23:02] end to get device info from CFG file...
+[Debug] [2025-11-1 21:23:02] Begin to update graphic item and tree item ...
+[Debug] [2025-11-1 21:23:02] End to update graphic item and tree item ...
+[Debug] [2025-11-1 21:23:02] Begin to update graphic item and tree item ...
+[Debug] [2025-11-1 21:23:02] End to update graphic item and tree item ...
+[Debug] [2025-11-1 21:23:02] End to deal wiht chain from server.
+[Debug] [2025-11-1 21:23:02] end the exec of open cable cmd.
+[Debug] [2025-11-1 21:23:02] COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2025-11-1 21:23:02] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2025-11-1 21:23:03] Begin to send programming cmd...
+[Debug] [2025-11-1 21:23:03] Send RPC:4
+[Debug] [2025-11-1 21:23:03] Begin to send program data.
+[Debug] [2025-11-1 21:23:03] End to send program data.
+[Debug] [2025-11-1 21:23:03] Send cmd [Program:20002] OK
+[Debug] [2025-11-1 21:23:04] The value of Progress is 6
+[Debug] [2025-11-1 21:23:04] The value of Progress is 10
+[Debug] [2025-11-1 21:23:04] The value of Progress is 15
+[Debug] [2025-11-1 21:23:04] The value of Progress is 20
+[Debug] [2025-11-1 21:23:04] The value of Progress is 25
+[Debug] [2025-11-1 21:23:04] The value of Progress is 30
+[Debug] [2025-11-1 21:23:04] The value of Progress is 35
+[Debug] [2025-11-1 21:23:05] The value of Progress is 40
+[Debug] [2025-11-1 21:23:05] The value of Progress is 45
+[Debug] [2025-11-1 21:23:05] The value of Progress is 50
+[Debug] [2025-11-1 21:23:05] The value of Progress is 55
+[Debug] [2025-11-1 21:23:05] The value of Progress is 60
+[Debug] [2025-11-1 21:23:05] The value of Progress is 65
+[Debug] [2025-11-1 21:23:06] The value of Progress is 70
+[Debug] [2025-11-1 21:23:06] The value of Progress is 75
+[Debug] [2025-11-1 21:23:06] The value of Progress is 80
+[Debug] [2025-11-1 21:23:06] The value of Progress is 85
+[Debug] [2025-11-1 21:23:06] The value of Progress is 90
+[Debug] [2025-11-1 21:23:06] The value of Progress is 95
+[Debug] [2025-11-1 21:23:07] The value of Progress is 100
+[Debug] [2025-11-1 21:23:07] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 21:23:07] End to send programming cmd.
+[Debug] [2025-11-1 21:23:07] Log::Print : The done bit is 1
+[Debug] [2025-11-1 21:23:07] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 21:32:30] Begin to send programming cmd...
+[Debug] [2025-11-1 21:32:30] Send RPC:5
+[Debug] [2025-11-1 21:32:30] Begin to send program data.
+[Debug] [2025-11-1 21:32:30] End to send program data.
+[Debug] [2025-11-1 21:32:30] Send cmd [Program:20002] OK
+[Debug] [2025-11-1 21:32:30] The value of Progress is 6
+[Debug] [2025-11-1 21:32:30] The value of Progress is 10
+[Debug] [2025-11-1 21:32:31] The value of Progress is 15
+[Debug] [2025-11-1 21:32:31] The value of Progress is 20
+[Debug] [2025-11-1 21:32:31] The value of Progress is 25
+[Debug] [2025-11-1 21:32:31] The value of Progress is 30
+[Debug] [2025-11-1 21:32:31] The value of Progress is 35
+[Debug] [2025-11-1 21:32:31] The value of Progress is 40
+[Debug] [2025-11-1 21:32:31] The value of Progress is 45
+[Debug] [2025-11-1 21:32:32] The value of Progress is 50
+[Debug] [2025-11-1 21:32:32] The value of Progress is 55
+[Debug] [2025-11-1 21:32:32] The value of Progress is 60
+[Debug] [2025-11-1 21:32:32] The value of Progress is 65
+[Debug] [2025-11-1 21:32:32] The value of Progress is 70
+[Debug] [2025-11-1 21:32:32] The value of Progress is 75
+[Debug] [2025-11-1 21:32:33] The value of Progress is 80
+[Debug] [2025-11-1 21:32:33] The value of Progress is 85
+[Debug] [2025-11-1 21:32:33] The value of Progress is 90
+[Debug] [2025-11-1 21:32:33] The value of Progress is 95
+[Debug] [2025-11-1 21:32:33] The value of Progress is 100
+[Debug] [2025-11-1 21:32:33] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 21:32:33] End to send programming cmd.
+[Debug] [2025-11-1 21:32:33] Log::Print : The done bit is 1
+[Debug] [2025-11-1 21:32:33] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 21:39:46] Begin to send programming cmd...
+[Debug] [2025-11-1 21:39:46] Send RPC:6
+[Debug] [2025-11-1 21:39:46] Begin to send program data.
+[Debug] [2025-11-1 21:39:46] End to send program data.
+[Debug] [2025-11-1 21:39:46] Send cmd [Program:20002] OK
+[Debug] [2025-11-1 21:39:46] The value of Progress is 6
+[Debug] [2025-11-1 21:39:47] The value of Progress is 10
+[Debug] [2025-11-1 21:39:47] The value of Progress is 15
+[Debug] [2025-11-1 21:39:47] The value of Progress is 20
+[Debug] [2025-11-1 21:39:47] The value of Progress is 25
+[Debug] [2025-11-1 21:39:47] The value of Progress is 30
+[Debug] [2025-11-1 21:39:47] The value of Progress is 35
+[Debug] [2025-11-1 21:39:47] The value of Progress is 40
+[Debug] [2025-11-1 21:39:48] The value of Progress is 45
+[Debug] [2025-11-1 21:39:48] The value of Progress is 50
+[Debug] [2025-11-1 21:39:48] The value of Progress is 55
+[Debug] [2025-11-1 21:39:48] The value of Progress is 60
+[Debug] [2025-11-1 21:39:48] The value of Progress is 65
+[Debug] [2025-11-1 21:39:48] The value of Progress is 70
+[Debug] [2025-11-1 21:39:49] The value of Progress is 75
+[Debug] [2025-11-1 21:39:49] The value of Progress is 80
+[Debug] [2025-11-1 21:39:49] The value of Progress is 85
+[Debug] [2025-11-1 21:39:49] The value of Progress is 90
+[Debug] [2025-11-1 21:39:49] The value of Progress is 95
+[Debug] [2025-11-1 21:39:49] The value of Progress is 100
+[Debug] [2025-11-1 21:39:50] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 21:39:50] End to send programming cmd.
+[Debug] [2025-11-1 21:39:50] Log::Print : The done bit is 1
+[Debug] [2025-11-1 21:39:50] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 21:44:49] Begin to send programming cmd...
+[Debug] [2025-11-1 21:44:49] Send RPC:7
+[Debug] [2025-11-1 21:44:49] Begin to send program data.
+[Debug] [2025-11-1 21:44:49] End to send program data.
+[Debug] [2025-11-1 21:44:49] Send cmd [Program:20002] OK
+[Debug] [2025-11-1 21:44:49] The value of Progress is 6
+[Debug] [2025-11-1 21:44:49] The value of Progress is 10
+[Debug] [2025-11-1 21:44:49] The value of Progress is 15
+[Debug] [2025-11-1 21:44:49] The value of Progress is 20
+[Debug] [2025-11-1 21:44:50] The value of Progress is 25
+[Debug] [2025-11-1 21:44:50] The value of Progress is 30
+[Debug] [2025-11-1 21:44:50] The value of Progress is 35
+[Debug] [2025-11-1 21:44:50] The value of Progress is 40
+[Debug] [2025-11-1 21:44:50] The value of Progress is 45
+[Debug] [2025-11-1 21:44:50] The value of Progress is 50
+[Debug] [2025-11-1 21:44:50] The value of Progress is 55
+[Debug] [2025-11-1 21:44:51] The value of Progress is 60
+[Debug] [2025-11-1 21:44:51] The value of Progress is 65
+[Debug] [2025-11-1 21:44:51] The value of Progress is 70
+[Debug] [2025-11-1 21:44:51] The value of Progress is 75
+[Debug] [2025-11-1 21:44:51] The value of Progress is 80
+[Debug] [2025-11-1 21:44:51] The value of Progress is 85
+[Debug] [2025-11-1 21:44:52] The value of Progress is 90
+[Debug] [2025-11-1 21:44:52] The value of Progress is 95
+[Debug] [2025-11-1 21:44:52] The value of Progress is 100
+[Debug] [2025-11-1 21:44:52] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 21:44:52] End to send programming cmd.
+[Debug] [2025-11-1 21:44:52] Log::Print : The done bit is 1
+[Debug] [2025-11-1 21:44:52] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 21:52:38] Begin to send programming cmd...
+[Debug] [2025-11-1 21:52:38] Send RPC:8
+[Debug] [2025-11-1 21:52:38] Begin to send program data.
+[Debug] [2025-11-1 21:52:38] End to send program data.
+[Debug] [2025-11-1 21:52:38] Send cmd [Program:20002] OK
+[Debug] [2025-11-1 21:52:38] The value of Progress is 6
+[Debug] [2025-11-1 21:52:39] The value of Progress is 10
+[Debug] [2025-11-1 21:52:39] The value of Progress is 15
+[Debug] [2025-11-1 21:52:39] The value of Progress is 20
+[Debug] [2025-11-1 21:52:39] The value of Progress is 25
+[Debug] [2025-11-1 21:52:39] The value of Progress is 30
+[Debug] [2025-11-1 21:52:39] The value of Progress is 35
+[Debug] [2025-11-1 21:52:40] The value of Progress is 40
+[Debug] [2025-11-1 21:52:40] The value of Progress is 45
+[Debug] [2025-11-1 21:52:40] The value of Progress is 50
+[Debug] [2025-11-1 21:52:40] The value of Progress is 55
+[Debug] [2025-11-1 21:52:40] The value of Progress is 60
+[Debug] [2025-11-1 21:52:40] The value of Progress is 65
+[Debug] [2025-11-1 21:52:41] The value of Progress is 70
+[Debug] [2025-11-1 21:52:41] The value of Progress is 75
+[Debug] [2025-11-1 21:52:41] The value of Progress is 80
+[Debug] [2025-11-1 21:52:41] The value of Progress is 85
+[Debug] [2025-11-1 21:52:41] The value of Progress is 90
+[Debug] [2025-11-1 21:52:41] The value of Progress is 95
+[Debug] [2025-11-1 21:52:41] The value of Progress is 100
+[Debug] [2025-11-1 21:52:42] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 21:52:42] End to send programming cmd.
+[Debug] [2025-11-1 21:52:42] Log::Print : The done bit is 1
+[Debug] [2025-11-1 21:52:42] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-1 21:59:46] /***************************End Configration***************************/
+[Info] [2025-11-1 22:08:09] /***************************Start Configuration***************************/
+[Info] [2025-11-1 22:08:09] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-1 22:08:09] Version: 146967
+[Info] [2025-11-1 22:08:10] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-1 22:08:10] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-1 22:08:14] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-1 22:08:14] Client Local host name:yanxi
+[Debug] [2025-11-1 22:08:14] Client Local Address:192.168.120.1
+[Debug] [2025-11-1 22:08:14] Client Local Address:192.168.72.1
+[Debug] [2025-11-1 22:08:14] Client Local Address:10.28.163.198
+[Debug] [2025-11-1 22:08:14] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-1 22:08:14] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-1 22:08:14] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-1 22:08:14] Finish.
+[Info] [2025-11-1 22:08:14] Connect server succeeded
+[Debug] [2025-11-1 22:08:14] Send RPC:1
+[Debug] [2025-11-1 22:08:14] Send cmd [check version information:40004] OK
+[Debug] [2025-11-1 22:08:14] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-1 22:08:15] Send RPC:2
+[Debug] [2025-11-1 22:08:15] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-1 22:08:15] Begin to send initialize chain cmd...
+[Debug] [2025-11-1 22:08:15] Send RPC:3
+[Debug] [2025-11-1 22:08:15] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-1 22:08:15] End to send initialize chain cmd.
+[Debug] [2025-11-1 22:08:15] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-1 22:08:15] Log::Print : COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-1 22:08:16] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2025-11-1 22:08:16] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-1 22:08:16] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2025-11-1 22:08:16] begin the exec of open cable cmd...
+[Debug] [2025-11-1 22:08:16] Begin to deal with chain from server...
+[Debug] [2025-11-1 22:08:16] Begin to set user chain...
+[Debug] [2025-11-1 22:08:16] End to set user chain.
+[Debug] [2025-11-1 22:08:16] Begin to update graphic item and tree item ...
+[Debug] [2025-11-1 22:08:16] End to update graphic item and tree item ...
+[Debug] [2025-11-1 22:08:16] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-1 22:08:16] Log::Print : PG2L100H
+[Debug] [2025-11-1 22:08:16] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-11-1 22:08:17] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-1 22:08:17] begin to get device info from CFG file...
+[Debug] [2025-11-1 22:08:17] end to get device info from CFG file...
+[Debug] [2025-11-1 22:08:17] Begin to update graphic item and tree item ...
+[Debug] [2025-11-1 22:08:17] End to update graphic item and tree item ...
+[Debug] [2025-11-1 22:08:17] Begin to update graphic item and tree item ...
+[Debug] [2025-11-1 22:08:17] End to update graphic item and tree item ...
+[Debug] [2025-11-1 22:08:17] End to deal wiht chain from server.
+[Debug] [2025-11-1 22:08:17] end the exec of open cable cmd.
+[Debug] [2025-11-1 22:08:17] COMMAND[Open config cable] execute successfully, takes 2.7 secs.
+[Debug] [2025-11-1 22:08:17] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.7 secs.
+[Debug] [2025-11-1 22:08:19] Begin to send programming cmd...
+[Debug] [2025-11-1 22:08:19] Send RPC:4
+[Debug] [2025-11-1 22:08:19] Begin to send program data.
+[Debug] [2025-11-1 22:08:19] End to send program data.
+[Debug] [2025-11-1 22:08:19] Send cmd [Program:20002] OK
+[Debug] [2025-11-1 22:08:19] The value of Progress is 6
+[Debug] [2025-11-1 22:08:19] The value of Progress is 10
+[Debug] [2025-11-1 22:08:19] The value of Progress is 15
+[Debug] [2025-11-1 22:08:19] The value of Progress is 20
+[Debug] [2025-11-1 22:08:19] The value of Progress is 25
+[Debug] [2025-11-1 22:08:20] The value of Progress is 30
+[Debug] [2025-11-1 22:08:20] The value of Progress is 35
+[Debug] [2025-11-1 22:08:20] The value of Progress is 40
+[Debug] [2025-11-1 22:08:20] The value of Progress is 45
+[Debug] [2025-11-1 22:08:20] The value of Progress is 50
+[Debug] [2025-11-1 22:08:20] The value of Progress is 55
+[Debug] [2025-11-1 22:08:21] The value of Progress is 60
+[Debug] [2025-11-1 22:08:21] The value of Progress is 65
+[Debug] [2025-11-1 22:08:21] The value of Progress is 70
+[Debug] [2025-11-1 22:08:21] The value of Progress is 75
+[Debug] [2025-11-1 22:08:21] The value of Progress is 80
+[Debug] [2025-11-1 22:08:21] The value of Progress is 85
+[Debug] [2025-11-1 22:08:22] The value of Progress is 90
+[Debug] [2025-11-1 22:08:22] The value of Progress is 95
+[Debug] [2025-11-1 22:08:22] The value of Progress is 100
+[Debug] [2025-11-1 22:08:22] COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-11-1 22:08:22] End to send programming cmd.
+[Debug] [2025-11-1 22:08:22] Log::Print : The done bit is 1
+[Debug] [2025-11-1 22:08:22] Log::Print : COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-11-1 22:09:56] Begin to send programming cmd...
+[Debug] [2025-11-1 22:09:56] Send RPC:5
+[Debug] [2025-11-1 22:09:56] Begin to send program data.
+[Debug] [2025-11-1 22:09:56] End to send program data.
+[Debug] [2025-11-1 22:09:56] Send cmd [Program:20002] OK
+[Debug] [2025-11-1 22:09:56] The value of Progress is 6
+[Debug] [2025-11-1 22:09:57] The value of Progress is 10
+[Debug] [2025-11-1 22:09:57] The value of Progress is 15
+[Debug] [2025-11-1 22:09:57] The value of Progress is 20
+[Debug] [2025-11-1 22:09:57] The value of Progress is 25
+[Debug] [2025-11-1 22:09:57] The value of Progress is 30
+[Debug] [2025-11-1 22:09:57] The value of Progress is 35
+[Debug] [2025-11-1 22:09:58] The value of Progress is 40
+[Debug] [2025-11-1 22:09:58] The value of Progress is 45
+[Debug] [2025-11-1 22:09:58] The value of Progress is 50
+[Debug] [2025-11-1 22:09:58] The value of Progress is 55
+[Debug] [2025-11-1 22:09:58] The value of Progress is 60
+[Debug] [2025-11-1 22:09:58] The value of Progress is 65
+[Debug] [2025-11-1 22:09:58] The value of Progress is 70
+[Debug] [2025-11-1 22:09:59] The value of Progress is 75
+[Debug] [2025-11-1 22:09:59] The value of Progress is 80
+[Debug] [2025-11-1 22:09:59] The value of Progress is 85
+[Debug] [2025-11-1 22:09:59] The value of Progress is 90
+[Debug] [2025-11-1 22:09:59] The value of Progress is 95
+[Debug] [2025-11-1 22:09:59] The value of Progress is 100
+[Debug] [2025-11-1 22:10:00] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 22:10:00] End to send programming cmd.
+[Debug] [2025-11-1 22:10:00] Log::Print : The done bit is 1
+[Debug] [2025-11-1 22:10:00] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 22:21:07] Begin to send programming cmd...
+[Debug] [2025-11-1 22:21:07] Send RPC:6
+[Debug] [2025-11-1 22:21:07] Begin to send program data.
+[Debug] [2025-11-1 22:21:07] End to send program data.
+[Debug] [2025-11-1 22:21:07] Send cmd [Program:20002] OK
+[Debug] [2025-11-1 22:21:08] The value of Progress is 6
+[Debug] [2025-11-1 22:21:08] The value of Progress is 10
+[Debug] [2025-11-1 22:21:08] The value of Progress is 15
+[Debug] [2025-11-1 22:21:08] The value of Progress is 20
+[Debug] [2025-11-1 22:21:08] The value of Progress is 25
+[Debug] [2025-11-1 22:21:08] The value of Progress is 30
+[Debug] [2025-11-1 22:21:09] The value of Progress is 35
+[Debug] [2025-11-1 22:21:09] The value of Progress is 40
+[Debug] [2025-11-1 22:21:09] The value of Progress is 45
+[Debug] [2025-11-1 22:21:09] The value of Progress is 50
+[Debug] [2025-11-1 22:21:09] The value of Progress is 55
+[Debug] [2025-11-1 22:21:09] The value of Progress is 60
+[Debug] [2025-11-1 22:21:09] The value of Progress is 65
+[Debug] [2025-11-1 22:21:10] The value of Progress is 70
+[Debug] [2025-11-1 22:21:10] The value of Progress is 75
+[Debug] [2025-11-1 22:21:10] The value of Progress is 80
+[Debug] [2025-11-1 22:21:10] The value of Progress is 85
+[Debug] [2025-11-1 22:21:10] The value of Progress is 90
+[Debug] [2025-11-1 22:21:10] The value of Progress is 95
+[Debug] [2025-11-1 22:21:11] The value of Progress is 100
+[Debug] [2025-11-1 22:21:11] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 22:21:11] End to send programming cmd.
+[Debug] [2025-11-1 22:21:11] Log::Print : The done bit is 1
+[Debug] [2025-11-1 22:21:11] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 22:21:36] Begin to send programming cmd...
+[Debug] [2025-11-1 22:21:36] Send RPC:7
+[Debug] [2025-11-1 22:21:36] Begin to send program data.
+[Debug] [2025-11-1 22:21:36] End to send program data.
+[Debug] [2025-11-1 22:21:36] Send cmd [Program:20002] OK
+[Debug] [2025-11-1 22:21:36] The value of Progress is 6
+[Debug] [2025-11-1 22:21:36] The value of Progress is 10
+[Debug] [2025-11-1 22:21:37] The value of Progress is 15
+[Debug] [2025-11-1 22:21:37] The value of Progress is 20
+[Debug] [2025-11-1 22:21:37] The value of Progress is 25
+[Debug] [2025-11-1 22:21:37] The value of Progress is 30
+[Debug] [2025-11-1 22:21:37] The value of Progress is 35
+[Debug] [2025-11-1 22:21:37] The value of Progress is 40
+[Debug] [2025-11-1 22:21:37] The value of Progress is 45
+[Debug] [2025-11-1 22:21:38] The value of Progress is 50
+[Debug] [2025-11-1 22:21:38] The value of Progress is 55
+[Debug] [2025-11-1 22:21:38] The value of Progress is 60
+[Debug] [2025-11-1 22:21:38] The value of Progress is 65
+[Debug] [2025-11-1 22:21:38] The value of Progress is 70
+[Debug] [2025-11-1 22:21:38] The value of Progress is 75
+[Debug] [2025-11-1 22:21:39] The value of Progress is 80
+[Debug] [2025-11-1 22:21:39] The value of Progress is 85
+[Debug] [2025-11-1 22:21:39] The value of Progress is 90
+[Debug] [2025-11-1 22:21:39] The value of Progress is 95
+[Debug] [2025-11-1 22:21:39] The value of Progress is 100
+[Debug] [2025-11-1 22:21:39] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 22:21:39] End to send programming cmd.
+[Debug] [2025-11-1 22:21:39] Log::Print : The done bit is 1
+[Debug] [2025-11-1 22:21:39] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 22:31:03] Begin to send programming cmd...
+[Debug] [2025-11-1 22:31:03] Send RPC:8
+[Debug] [2025-11-1 22:31:03] Begin to send program data.
+[Debug] [2025-11-1 22:31:03] End to send program data.
+[Debug] [2025-11-1 22:31:03] Send cmd [Program:20002] OK
+[Debug] [2025-11-1 22:31:03] The value of Progress is 6
+[Debug] [2025-11-1 22:31:03] The value of Progress is 10
+[Debug] [2025-11-1 22:31:03] The value of Progress is 15
+[Debug] [2025-11-1 22:31:04] The value of Progress is 20
+[Debug] [2025-11-1 22:31:04] The value of Progress is 25
+[Debug] [2025-11-1 22:31:04] The value of Progress is 30
+[Debug] [2025-11-1 22:31:04] The value of Progress is 35
+[Debug] [2025-11-1 22:31:04] The value of Progress is 40
+[Debug] [2025-11-1 22:31:04] The value of Progress is 45
+[Debug] [2025-11-1 22:31:05] The value of Progress is 50
+[Debug] [2025-11-1 22:31:05] The value of Progress is 55
+[Debug] [2025-11-1 22:31:05] The value of Progress is 60
+[Debug] [2025-11-1 22:31:05] The value of Progress is 65
+[Debug] [2025-11-1 22:31:05] The value of Progress is 70
+[Debug] [2025-11-1 22:31:05] The value of Progress is 75
+[Debug] [2025-11-1 22:31:05] The value of Progress is 80
+[Debug] [2025-11-1 22:31:06] The value of Progress is 85
+[Debug] [2025-11-1 22:31:06] The value of Progress is 90
+[Debug] [2025-11-1 22:31:06] The value of Progress is 95
+[Debug] [2025-11-1 22:31:06] The value of Progress is 100
+[Debug] [2025-11-1 22:31:06] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-1 22:31:06] End to send programming cmd.
+[Debug] [2025-11-1 22:31:06] Log::Print : The done bit is 1
+[Debug] [2025-11-1 22:31:06] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-1 22:32:04] /***************************End Configration***************************/
+[Info] [2025-11-2 08:25:49] /***************************Start Configuration***************************/
+[Info] [2025-11-2 08:25:49] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-2 08:25:49] Version: 146967
+[Info] [2025-11-2 08:25:50] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 08:25:50] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 08:25:55] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-2 08:25:55] Client Local host name:yanxi
+[Debug] [2025-11-2 08:25:55] Client Local Address:192.168.120.1
+[Debug] [2025-11-2 08:25:55] Client Local Address:192.168.72.1
+[Debug] [2025-11-2 08:25:55] Client Local Address:10.28.163.198
+[Debug] [2025-11-2 08:25:55] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-2 08:25:55] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-2 08:25:55] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-2 08:25:55] Finish.
+[Info] [2025-11-2 08:25:55] Connect server succeeded
+[Debug] [2025-11-2 08:25:55] Send RPC:1
+[Debug] [2025-11-2 08:25:55] Send cmd [check version information:40004] OK
+[Debug] [2025-11-2 08:25:55] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-2 08:25:56] Send RPC:2
+[Debug] [2025-11-2 08:25:56] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-2 08:25:56] Begin to send initialize chain cmd...
+[Debug] [2025-11-2 08:25:56] Send RPC:3
+[Debug] [2025-11-2 08:25:56] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-2 08:25:56] End to send initialize chain cmd.
+[Debug] [2025-11-2 08:25:56] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-2 08:25:56] Log::Print : COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-2 08:25:57] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 08:25:57] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-2 08:25:57] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 08:25:57] begin the exec of open cable cmd...
+[Debug] [2025-11-2 08:25:57] Begin to deal with chain from server...
+[Debug] [2025-11-2 08:25:57] Begin to set user chain...
+[Debug] [2025-11-2 08:25:57] End to set user chain.
+[Debug] [2025-11-2 08:25:57] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:25:57] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:25:57] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-2 08:25:57] Log::Print : PG2L100H
+[Debug] [2025-11-2 08:25:57] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-11-2 08:25:59] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-2 08:25:59] begin to get device info from CFG file...
+[Debug] [2025-11-2 08:25:59] end to get device info from CFG file...
+[Debug] [2025-11-2 08:25:59] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:25:59] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:25:59] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:25:59] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:25:59] End to deal wiht chain from server.
+[Debug] [2025-11-2 08:25:59] end the exec of open cable cmd.
+[Debug] [2025-11-2 08:25:59] COMMAND[Open config cable] execute successfully, takes 3.2 secs.
+[Debug] [2025-11-2 08:25:59] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.2 secs.
+[Debug] [2025-11-2 08:26:00] Begin to send programming cmd...
+[Debug] [2025-11-2 08:26:00] Send RPC:4
+[Debug] [2025-11-2 08:26:00] Begin to send program data.
+[Debug] [2025-11-2 08:26:00] End to send program data.
+[Debug] [2025-11-2 08:26:00] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 08:26:00] The value of Progress is 6
+[Debug] [2025-11-2 08:26:01] The value of Progress is 10
+[Debug] [2025-11-2 08:26:01] The value of Progress is 15
+[Debug] [2025-11-2 08:26:01] The value of Progress is 20
+[Debug] [2025-11-2 08:26:01] The value of Progress is 25
+[Debug] [2025-11-2 08:26:01] The value of Progress is 30
+[Debug] [2025-11-2 08:26:01] The value of Progress is 35
+[Debug] [2025-11-2 08:26:02] The value of Progress is 40
+[Debug] [2025-11-2 08:26:02] The value of Progress is 45
+[Debug] [2025-11-2 08:26:02] The value of Progress is 50
+[Debug] [2025-11-2 08:26:02] The value of Progress is 55
+[Debug] [2025-11-2 08:26:02] The value of Progress is 60
+[Debug] [2025-11-2 08:26:02] The value of Progress is 65
+[Debug] [2025-11-2 08:26:02] The value of Progress is 70
+[Debug] [2025-11-2 08:26:03] The value of Progress is 75
+[Debug] [2025-11-2 08:26:03] The value of Progress is 80
+[Debug] [2025-11-2 08:26:03] The value of Progress is 85
+[Debug] [2025-11-2 08:26:03] The value of Progress is 90
+[Debug] [2025-11-2 08:26:03] The value of Progress is 95
+[Debug] [2025-11-2 08:26:03] The value of Progress is 100
+[Debug] [2025-11-2 08:26:04] COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-11-2 08:26:04] End to send programming cmd.
+[Debug] [2025-11-2 08:26:04] Log::Print : The done bit is 1
+[Debug] [2025-11-2 08:26:04] Log::Print : COMMAND[Program] execute successfully, takes 3.5 secs.
+[Info] [2025-11-2 08:28:45] /***************************End Configration***************************/
+[Info] [2025-11-2 08:35:43] /***************************Start Configuration***************************/
+[Info] [2025-11-2 08:35:43] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-2 08:35:43] Version: 146967
+[Info] [2025-11-2 08:35:44] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 08:35:44] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 08:35:46] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-2 08:35:46] Client Local host name:yanxi
+[Debug] [2025-11-2 08:35:46] Client Local Address:192.168.120.1
+[Debug] [2025-11-2 08:35:46] Client Local Address:192.168.72.1
+[Debug] [2025-11-2 08:35:46] Client Local Address:10.28.163.198
+[Debug] [2025-11-2 08:35:46] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-2 08:35:46] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-2 08:35:46] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-2 08:35:46] Finish.
+[Info] [2025-11-2 08:35:46] Connect server succeeded
+[Debug] [2025-11-2 08:35:46] Send RPC:1
+[Debug] [2025-11-2 08:35:46] Send cmd [check version information:40004] OK
+[Debug] [2025-11-2 08:35:46] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-2 08:35:47] Send RPC:2
+[Debug] [2025-11-2 08:35:47] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-2 08:35:47] Begin to send initialize chain cmd...
+[Debug] [2025-11-2 08:35:47] Send RPC:3
+[Debug] [2025-11-2 08:35:47] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-2 08:35:47] End to send initialize chain cmd.
+[Debug] [2025-11-2 08:35:47] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2025-11-2 08:35:47] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2025-11-2 08:35:48] COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2025-11-2 08:35:48] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-2 08:35:48] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.2 secs.
+[Debug] [2025-11-2 08:35:52] begin the exec of open cable cmd...
+[Debug] [2025-11-2 08:35:52] Begin to deal with chain from server...
+[Debug] [2025-11-2 08:35:52] Begin to set user chain...
+[Debug] [2025-11-2 08:35:52] End to set user chain.
+[Debug] [2025-11-2 08:35:52] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:35:52] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:35:52] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-2 08:35:52] Log::Print : PG2L100H
+[Debug] [2025-11-2 08:35:52] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-11-2 08:35:53] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-2 08:35:53] begin to get device info from CFG file...
+[Debug] [2025-11-2 08:35:53] end to get device info from CFG file...
+[Debug] [2025-11-2 08:35:53] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:35:53] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:35:53] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:35:53] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:35:53] End to deal wiht chain from server.
+[Debug] [2025-11-2 08:35:53] end the exec of open cable cmd.
+[Debug] [2025-11-2 08:35:53] COMMAND[Open config cable] execute successfully, takes 6.3 secs.
+[Debug] [2025-11-2 08:35:53] Log::Print : COMMAND[Open config cable] execute successfully, takes 6.3 secs.
+[Debug] [2025-11-2 08:35:54] Begin to send programming cmd...
+[Debug] [2025-11-2 08:35:54] Send RPC:4
+[Debug] [2025-11-2 08:35:54] Begin to send program data.
+[Debug] [2025-11-2 08:35:54] End to send program data.
+[Debug] [2025-11-2 08:35:54] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 08:35:54] The value of Progress is 6
+[Debug] [2025-11-2 08:35:54] The value of Progress is 10
+[Debug] [2025-11-2 08:35:55] The value of Progress is 15
+[Debug] [2025-11-2 08:35:55] The value of Progress is 20
+[Debug] [2025-11-2 08:35:55] The value of Progress is 25
+[Debug] [2025-11-2 08:35:55] The value of Progress is 30
+[Debug] [2025-11-2 08:35:55] The value of Progress is 35
+[Debug] [2025-11-2 08:35:55] The value of Progress is 40
+[Debug] [2025-11-2 08:35:55] The value of Progress is 45
+[Debug] [2025-11-2 08:35:56] The value of Progress is 50
+[Debug] [2025-11-2 08:35:56] The value of Progress is 55
+[Debug] [2025-11-2 08:35:56] The value of Progress is 60
+[Debug] [2025-11-2 08:35:56] The value of Progress is 65
+[Debug] [2025-11-2 08:35:56] The value of Progress is 70
+[Debug] [2025-11-2 08:35:56] The value of Progress is 75
+[Debug] [2025-11-2 08:35:57] The value of Progress is 80
+[Debug] [2025-11-2 08:35:57] The value of Progress is 85
+[Debug] [2025-11-2 08:35:57] The value of Progress is 90
+[Debug] [2025-11-2 08:35:57] The value of Progress is 95
+[Debug] [2025-11-2 08:35:57] The value of Progress is 100
+[Debug] [2025-11-2 08:35:57] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 08:35:57] End to send programming cmd.
+[Debug] [2025-11-2 08:35:57] Log::Print : The done bit is 1
+[Debug] [2025-11-2 08:35:57] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-2 08:36:59] /***************************End Configration***************************/
+[Info] [2025-11-2 08:51:47] /***************************Start Configuration***************************/
+[Info] [2025-11-2 08:51:47] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-2 08:51:47] Version: 146967
+[Info] [2025-11-2 08:51:48] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 08:51:48] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 08:51:54] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-2 08:51:54] Client Local host name:yanxi
+[Debug] [2025-11-2 08:51:54] Client Local Address:192.168.120.1
+[Debug] [2025-11-2 08:51:54] Client Local Address:192.168.72.1
+[Debug] [2025-11-2 08:51:54] Client Local Address:10.28.163.198
+[Debug] [2025-11-2 08:51:54] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-2 08:51:54] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-2 08:51:55] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-2 08:51:55] Finish.
+[Info] [2025-11-2 08:51:55] Connect server succeeded
+[Debug] [2025-11-2 08:51:55] Send RPC:1
+[Debug] [2025-11-2 08:51:55] Send cmd [check version information:40004] OK
+[Debug] [2025-11-2 08:51:55] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-2 08:51:55] Send RPC:2
+[Debug] [2025-11-2 08:51:55] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-2 08:51:55] Begin to send initialize chain cmd...
+[Debug] [2025-11-2 08:51:55] Send RPC:3
+[Debug] [2025-11-2 08:51:55] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-2 08:51:55] End to send initialize chain cmd.
+[Debug] [2025-11-2 08:51:55] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2025-11-2 08:51:55] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2025-11-2 08:51:57] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 08:51:57] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-2 08:51:57] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 08:51:57] begin the exec of open cable cmd...
+[Debug] [2025-11-2 08:51:57] Begin to deal with chain from server...
+[Debug] [2025-11-2 08:51:57] Begin to set user chain...
+[Debug] [2025-11-2 08:51:57] End to set user chain.
+[Debug] [2025-11-2 08:51:57] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:51:57] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:51:57] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-2 08:51:57] Log::Print : PG2L100H
+[Debug] [2025-11-2 08:51:57] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-11-2 08:51:58] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-2 08:51:58] begin to get device info from CFG file...
+[Debug] [2025-11-2 08:51:58] end to get device info from CFG file...
+[Debug] [2025-11-2 08:51:58] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:51:58] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:51:58] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:51:58] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:51:58] End to deal wiht chain from server.
+[Debug] [2025-11-2 08:51:58] end the exec of open cable cmd.
+[Debug] [2025-11-2 08:51:58] COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2025-11-2 08:51:58] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.9 secs.
+[Debug] [2025-11-2 08:52:00] Begin to send programming cmd...
+[Debug] [2025-11-2 08:52:00] Send RPC:4
+[Debug] [2025-11-2 08:52:00] Begin to send program data.
+[Debug] [2025-11-2 08:52:00] End to send program data.
+[Debug] [2025-11-2 08:52:00] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 08:52:00] The value of Progress is 6
+[Debug] [2025-11-2 08:52:00] The value of Progress is 10
+[Debug] [2025-11-2 08:52:01] The value of Progress is 15
+[Debug] [2025-11-2 08:52:01] The value of Progress is 20
+[Debug] [2025-11-2 08:52:01] The value of Progress is 25
+[Debug] [2025-11-2 08:52:01] The value of Progress is 30
+[Debug] [2025-11-2 08:52:01] The value of Progress is 35
+[Debug] [2025-11-2 08:52:01] The value of Progress is 40
+[Debug] [2025-11-2 08:52:02] The value of Progress is 45
+[Debug] [2025-11-2 08:52:02] The value of Progress is 50
+[Debug] [2025-11-2 08:52:02] The value of Progress is 55
+[Debug] [2025-11-2 08:52:02] The value of Progress is 60
+[Debug] [2025-11-2 08:52:02] The value of Progress is 65
+[Debug] [2025-11-2 08:52:02] The value of Progress is 70
+[Debug] [2025-11-2 08:52:02] The value of Progress is 75
+[Debug] [2025-11-2 08:52:03] The value of Progress is 80
+[Debug] [2025-11-2 08:52:03] The value of Progress is 85
+[Debug] [2025-11-2 08:52:03] The value of Progress is 90
+[Debug] [2025-11-2 08:52:03] The value of Progress is 95
+[Debug] [2025-11-2 08:52:03] The value of Progress is 100
+[Debug] [2025-11-2 08:52:03] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 08:52:03] End to send programming cmd.
+[Debug] [2025-11-2 08:52:03] Log::Print : The done bit is 1
+[Debug] [2025-11-2 08:52:03] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-2 08:52:20] /***************************End Configration***************************/
+[Info] [2025-11-2 08:58:39] /***************************Start Configuration***************************/
+[Info] [2025-11-2 08:58:39] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-2 08:58:39] Version: 146967
+[Info] [2025-11-2 08:58:40] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 08:58:40] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 08:58:42] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-2 08:58:42] Client Local host name:yanxi
+[Debug] [2025-11-2 08:58:42] Client Local Address:192.168.120.1
+[Debug] [2025-11-2 08:58:42] Client Local Address:192.168.72.1
+[Debug] [2025-11-2 08:58:42] Client Local Address:10.28.163.198
+[Debug] [2025-11-2 08:58:42] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-2 08:58:42] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-2 08:58:42] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-2 08:58:42] Finish.
+[Info] [2025-11-2 08:58:42] Connect server succeeded
+[Debug] [2025-11-2 08:58:42] Send RPC:1
+[Debug] [2025-11-2 08:58:42] Send cmd [check version information:40004] OK
+[Debug] [2025-11-2 08:58:42] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-2 08:58:43] Send RPC:2
+[Debug] [2025-11-2 08:58:43] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-2 08:58:43] Begin to send initialize chain cmd...
+[Debug] [2025-11-2 08:58:43] Send RPC:3
+[Debug] [2025-11-2 08:58:43] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-2 08:58:43] End to send initialize chain cmd.
+[Debug] [2025-11-2 08:58:43] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2025-11-2 08:58:43] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2025-11-2 08:58:44] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 08:58:44] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-2 08:58:44] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 08:58:45] begin the exec of open cable cmd...
+[Debug] [2025-11-2 08:58:45] Begin to deal with chain from server...
+[Debug] [2025-11-2 08:58:45] Begin to set user chain...
+[Debug] [2025-11-2 08:58:45] End to set user chain.
+[Debug] [2025-11-2 08:58:45] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:58:45] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:58:45] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-2 08:58:45] Log::Print : PG2L100H
+[Debug] [2025-11-2 08:58:45] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-11-2 08:58:46] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-2 08:58:46] begin to get device info from CFG file...
+[Debug] [2025-11-2 08:58:46] end to get device info from CFG file...
+[Debug] [2025-11-2 08:58:46] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:58:46] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:58:46] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 08:58:46] End to update graphic item and tree item ...
+[Debug] [2025-11-2 08:58:46] End to deal wiht chain from server.
+[Debug] [2025-11-2 08:58:46] end the exec of open cable cmd.
+[Debug] [2025-11-2 08:58:46] COMMAND[Open config cable] execute successfully, takes 2.7 secs.
+[Debug] [2025-11-2 08:58:46] Log::Print : COMMAND[Open config cable] execute successfully, takes 2.7 secs.
+[Debug] [2025-11-2 08:58:47] Begin to send programming cmd...
+[Debug] [2025-11-2 08:58:47] Send RPC:4
+[Debug] [2025-11-2 08:58:47] Begin to send program data.
+[Debug] [2025-11-2 08:58:47] End to send program data.
+[Debug] [2025-11-2 08:58:47] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 08:58:47] The value of Progress is 6
+[Debug] [2025-11-2 08:58:47] The value of Progress is 10
+[Debug] [2025-11-2 08:58:48] The value of Progress is 15
+[Debug] [2025-11-2 08:58:48] The value of Progress is 20
+[Debug] [2025-11-2 08:58:48] The value of Progress is 25
+[Debug] [2025-11-2 08:58:48] The value of Progress is 30
+[Debug] [2025-11-2 08:58:48] The value of Progress is 35
+[Debug] [2025-11-2 08:58:48] The value of Progress is 40
+[Debug] [2025-11-2 08:58:49] The value of Progress is 45
+[Debug] [2025-11-2 08:58:49] The value of Progress is 50
+[Debug] [2025-11-2 08:58:49] The value of Progress is 55
+[Debug] [2025-11-2 08:58:49] The value of Progress is 60
+[Debug] [2025-11-2 08:58:49] The value of Progress is 65
+[Debug] [2025-11-2 08:58:49] The value of Progress is 70
+[Debug] [2025-11-2 08:58:49] The value of Progress is 75
+[Debug] [2025-11-2 08:58:50] The value of Progress is 80
+[Debug] [2025-11-2 08:58:50] The value of Progress is 85
+[Debug] [2025-11-2 08:58:50] The value of Progress is 90
+[Debug] [2025-11-2 08:58:50] The value of Progress is 95
+[Debug] [2025-11-2 08:58:50] The value of Progress is 100
+[Debug] [2025-11-2 08:58:51] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 08:58:51] End to send programming cmd.
+[Debug] [2025-11-2 08:58:51] Log::Print : The done bit is 1
+[Debug] [2025-11-2 08:58:51] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 09:05:56] Begin to send programming cmd...
+[Debug] [2025-11-2 09:05:56] Send RPC:5
+[Debug] [2025-11-2 09:05:56] Begin to send program data.
+[Debug] [2025-11-2 09:05:56] End to send program data.
+[Debug] [2025-11-2 09:05:56] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 09:05:59] The value of Progress is 6
+[Debug] [2025-11-2 09:05:59] The value of Progress is 10
+[Debug] [2025-11-2 09:05:59] The value of Progress is 15
+[Debug] [2025-11-2 09:05:59] The value of Progress is 20
+[Debug] [2025-11-2 09:06:00] The value of Progress is 25
+[Debug] [2025-11-2 09:06:00] The value of Progress is 30
+[Debug] [2025-11-2 09:06:00] The value of Progress is 35
+[Debug] [2025-11-2 09:06:00] The value of Progress is 40
+[Debug] [2025-11-2 09:06:00] The value of Progress is 45
+[Debug] [2025-11-2 09:06:00] The value of Progress is 50
+[Debug] [2025-11-2 09:06:01] The value of Progress is 55
+[Debug] [2025-11-2 09:06:01] The value of Progress is 60
+[Debug] [2025-11-2 09:06:01] The value of Progress is 65
+[Debug] [2025-11-2 09:06:01] The value of Progress is 70
+[Debug] [2025-11-2 09:06:01] The value of Progress is 75
+[Debug] [2025-11-2 09:06:01] The value of Progress is 80
+[Debug] [2025-11-2 09:06:02] The value of Progress is 85
+[Debug] [2025-11-2 09:06:02] The value of Progress is 90
+[Debug] [2025-11-2 09:06:02] The value of Progress is 95
+[Debug] [2025-11-2 09:06:02] The value of Progress is 100
+[Debug] [2025-11-2 09:06:02] COMMAND[Program] execute successfully, takes 6.5 secs.
+[Debug] [2025-11-2 09:06:02] End to send programming cmd.
+[Debug] [2025-11-2 09:06:02] Log::Print : The done bit is 1
+[Debug] [2025-11-2 09:06:02] Log::Print : COMMAND[Program] execute successfully, takes 6.5 secs.
+[Debug] [2025-11-2 09:28:24] Begin to send programming cmd...
+[Debug] [2025-11-2 09:28:24] Send RPC:6
+[Debug] [2025-11-2 09:28:24] Begin to send program data.
+[Debug] [2025-11-2 09:28:24] End to send program data.
+[Debug] [2025-11-2 09:28:24] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 09:28:26] The value of Progress is 6
+[Debug] [2025-11-2 09:28:26] The value of Progress is 10
+[Debug] [2025-11-2 09:28:26] The value of Progress is 15
+[Debug] [2025-11-2 09:28:26] The value of Progress is 20
+[Debug] [2025-11-2 09:28:27] The value of Progress is 25
+[Debug] [2025-11-2 09:28:27] The value of Progress is 30
+[Debug] [2025-11-2 09:28:27] The value of Progress is 35
+[Debug] [2025-11-2 09:28:27] The value of Progress is 40
+[Debug] [2025-11-2 09:28:27] The value of Progress is 45
+[Debug] [2025-11-2 09:28:27] The value of Progress is 50
+[Debug] [2025-11-2 09:28:28] The value of Progress is 55
+[Debug] [2025-11-2 09:28:28] The value of Progress is 60
+[Debug] [2025-11-2 09:28:28] The value of Progress is 65
+[Debug] [2025-11-2 09:28:28] The value of Progress is 70
+[Debug] [2025-11-2 09:28:28] The value of Progress is 75
+[Debug] [2025-11-2 09:28:28] The value of Progress is 80
+[Debug] [2025-11-2 09:28:29] The value of Progress is 85
+[Debug] [2025-11-2 09:28:29] The value of Progress is 90
+[Debug] [2025-11-2 09:28:29] The value of Progress is 95
+[Debug] [2025-11-2 09:28:29] The value of Progress is 100
+[Debug] [2025-11-2 09:28:29] COMMAND[Program] execute successfully, takes 5.3 secs.
+[Debug] [2025-11-2 09:28:29] End to send programming cmd.
+[Debug] [2025-11-2 09:28:29] Log::Print : The done bit is 1
+[Debug] [2025-11-2 09:28:29] Log::Print : COMMAND[Program] execute successfully, takes 5.3 secs.
+[Info] [2025-11-2 09:33:27] /***************************End Configration***************************/
+[Info] [2025-11-2 09:56:40] /***************************Start Configuration***************************/
+[Info] [2025-11-2 09:56:40] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-2 09:56:40] Version: 146967
+[Info] [2025-11-2 09:56:41] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 09:56:41] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 09:56:42] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-2 09:56:42] Client Local host name:yanxi
+[Debug] [2025-11-2 09:56:42] Client Local Address:192.168.120.1
+[Debug] [2025-11-2 09:56:42] Client Local Address:192.168.72.1
+[Debug] [2025-11-2 09:56:42] Client Local Address:10.28.163.198
+[Debug] [2025-11-2 09:56:42] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-2 09:56:42] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-2 09:56:43] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-2 09:56:43] Finish.
+[Info] [2025-11-2 09:56:43] Connect server succeeded
+[Debug] [2025-11-2 09:56:43] Send RPC:1
+[Debug] [2025-11-2 09:56:43] Send cmd [check version information:40004] OK
+[Debug] [2025-11-2 09:56:43] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-2 09:56:43] Send RPC:2
+[Debug] [2025-11-2 09:56:43] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-2 09:56:43] Begin to send initialize chain cmd...
+[Debug] [2025-11-2 09:56:43] Send RPC:3
+[Debug] [2025-11-2 09:56:43] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-2 09:56:43] End to send initialize chain cmd.
+[Debug] [2025-11-2 09:56:43] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-2 09:56:43] Log::Print : COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-2 09:56:45] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 09:56:45] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-2 09:56:45] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 09:56:48] begin the exec of open cable cmd...
+[Debug] [2025-11-2 09:56:48] Begin to deal with chain from server...
+[Debug] [2025-11-2 09:56:48] Begin to set user chain...
+[Debug] [2025-11-2 09:56:48] End to set user chain.
+[Debug] [2025-11-2 09:56:48] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 09:56:48] End to update graphic item and tree item ...
+[Debug] [2025-11-2 09:56:48] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-2 09:56:48] Log::Print : PG2L100H
+[Debug] [2025-11-2 09:56:48] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-11-2 09:56:49] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-2 09:56:49] begin to get device info from CFG file...
+[Debug] [2025-11-2 09:56:49] end to get device info from CFG file...
+[Debug] [2025-11-2 09:56:49] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 09:56:49] End to update graphic item and tree item ...
+[Debug] [2025-11-2 09:56:49] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 09:56:49] End to update graphic item and tree item ...
+[Debug] [2025-11-2 09:56:49] End to deal wiht chain from server.
+[Debug] [2025-11-2 09:56:49] end the exec of open cable cmd.
+[Debug] [2025-11-2 09:56:49] COMMAND[Open config cable] execute successfully, takes 5.9 secs.
+[Debug] [2025-11-2 09:56:49] Log::Print : COMMAND[Open config cable] execute successfully, takes 5.9 secs.
+[Debug] [2025-11-2 09:56:52] Begin to send programming cmd...
+[Debug] [2025-11-2 09:56:52] Send RPC:4
+[Debug] [2025-11-2 09:56:52] Begin to send program data.
+[Debug] [2025-11-2 09:56:52] End to send program data.
+[Debug] [2025-11-2 09:56:52] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 09:56:52] The value of Progress is 6
+[Debug] [2025-11-2 09:56:52] The value of Progress is 10
+[Debug] [2025-11-2 09:56:52] The value of Progress is 15
+[Debug] [2025-11-2 09:56:53] The value of Progress is 20
+[Debug] [2025-11-2 09:56:53] The value of Progress is 25
+[Debug] [2025-11-2 09:56:53] The value of Progress is 30
+[Debug] [2025-11-2 09:56:53] The value of Progress is 35
+[Debug] [2025-11-2 09:56:53] The value of Progress is 40
+[Debug] [2025-11-2 09:56:53] The value of Progress is 45
+[Debug] [2025-11-2 09:56:54] The value of Progress is 50
+[Debug] [2025-11-2 09:56:54] The value of Progress is 55
+[Debug] [2025-11-2 09:56:54] The value of Progress is 60
+[Debug] [2025-11-2 09:56:54] The value of Progress is 65
+[Debug] [2025-11-2 09:56:54] The value of Progress is 70
+[Debug] [2025-11-2 09:56:54] The value of Progress is 75
+[Debug] [2025-11-2 09:56:54] The value of Progress is 80
+[Debug] [2025-11-2 09:56:55] The value of Progress is 85
+[Debug] [2025-11-2 09:56:55] The value of Progress is 90
+[Debug] [2025-11-2 09:56:55] The value of Progress is 95
+[Debug] [2025-11-2 09:56:55] The value of Progress is 100
+[Debug] [2025-11-2 09:56:55] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 09:56:55] End to send programming cmd.
+[Debug] [2025-11-2 09:56:55] Log::Print : The done bit is 1
+[Debug] [2025-11-2 09:56:55] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:10:41] Begin to send programming cmd...
+[Debug] [2025-11-2 10:10:41] Send RPC:5
+[Debug] [2025-11-2 10:10:41] Begin to send program data.
+[Debug] [2025-11-2 10:10:41] End to send program data.
+[Debug] [2025-11-2 10:10:41] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 10:10:42] The value of Progress is 6
+[Debug] [2025-11-2 10:10:42] The value of Progress is 10
+[Debug] [2025-11-2 10:10:42] The value of Progress is 15
+[Debug] [2025-11-2 10:10:42] The value of Progress is 20
+[Debug] [2025-11-2 10:10:42] The value of Progress is 25
+[Debug] [2025-11-2 10:10:42] The value of Progress is 30
+[Debug] [2025-11-2 10:10:42] The value of Progress is 35
+[Debug] [2025-11-2 10:10:43] The value of Progress is 40
+[Debug] [2025-11-2 10:10:43] The value of Progress is 45
+[Debug] [2025-11-2 10:10:43] The value of Progress is 50
+[Debug] [2025-11-2 10:10:43] The value of Progress is 55
+[Debug] [2025-11-2 10:10:43] The value of Progress is 60
+[Debug] [2025-11-2 10:10:43] The value of Progress is 65
+[Debug] [2025-11-2 10:10:44] The value of Progress is 70
+[Debug] [2025-11-2 10:10:44] The value of Progress is 75
+[Debug] [2025-11-2 10:10:44] The value of Progress is 80
+[Debug] [2025-11-2 10:10:44] The value of Progress is 85
+[Debug] [2025-11-2 10:10:44] The value of Progress is 90
+[Debug] [2025-11-2 10:10:44] The value of Progress is 95
+[Debug] [2025-11-2 10:10:45] The value of Progress is 100
+[Debug] [2025-11-2 10:10:45] COMMAND[Program] execute successfully, takes 3.5 secs.
+[Debug] [2025-11-2 10:10:45] End to send programming cmd.
+[Debug] [2025-11-2 10:10:45] Log::Print : The done bit is 1
+[Debug] [2025-11-2 10:10:45] Log::Print : COMMAND[Program] execute successfully, takes 3.5 secs.
+[Info] [2025-11-2 10:11:32] /***************************End Configration***************************/
+[Info] [2025-11-2 10:12:09] /***************************Start Configuration***************************/
+[Info] [2025-11-2 10:12:09] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-2 10:12:09] Version: 146967
+[Info] [2025-11-2 10:12:10] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 10:12:10] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 10:12:12] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-2 10:12:12] Client Local host name:yanxi
+[Debug] [2025-11-2 10:12:12] Client Local Address:192.168.120.1
+[Debug] [2025-11-2 10:12:12] Client Local Address:192.168.72.1
+[Debug] [2025-11-2 10:12:12] Client Local Address:10.28.163.198
+[Debug] [2025-11-2 10:12:12] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-2 10:12:12] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-2 10:12:12] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-2 10:12:12] Finish.
+[Info] [2025-11-2 10:12:12] Connect server succeeded
+[Debug] [2025-11-2 10:12:12] Send RPC:1
+[Debug] [2025-11-2 10:12:12] Send cmd [check version information:40004] OK
+[Debug] [2025-11-2 10:12:12] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-2 10:12:13] Send RPC:2
+[Debug] [2025-11-2 10:12:13] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-2 10:12:13] Begin to send initialize chain cmd...
+[Debug] [2025-11-2 10:12:13] Send RPC:3
+[Debug] [2025-11-2 10:12:13] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-2 10:12:13] End to send initialize chain cmd.
+[Debug] [2025-11-2 10:12:13] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-2 10:12:13] Log::Print : COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-2 10:12:14] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 10:12:14] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-2 10:12:14] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 10:12:14] begin the exec of open cable cmd...
+[Debug] [2025-11-2 10:12:14] Begin to deal with chain from server...
+[Debug] [2025-11-2 10:12:14] Begin to set user chain...
+[Debug] [2025-11-2 10:12:14] End to set user chain.
+[Debug] [2025-11-2 10:12:14] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 10:12:14] End to update graphic item and tree item ...
+[Debug] [2025-11-2 10:12:14] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-2 10:12:14] Log::Print : PG2L100H
+[Debug] [2025-11-2 10:12:14] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-11-2 10:12:17] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-2 10:12:17] begin to get device info from CFG file...
+[Debug] [2025-11-2 10:12:17] end to get device info from CFG file...
+[Debug] [2025-11-2 10:12:17] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 10:12:17] End to update graphic item and tree item ...
+[Debug] [2025-11-2 10:12:17] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 10:12:17] End to update graphic item and tree item ...
+[Debug] [2025-11-2 10:12:17] End to deal wiht chain from server.
+[Debug] [2025-11-2 10:12:17] end the exec of open cable cmd.
+[Debug] [2025-11-2 10:12:17] COMMAND[Open config cable] execute successfully, takes 4.6 secs.
+[Debug] [2025-11-2 10:12:17] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.6 secs.
+[Debug] [2025-11-2 10:12:18] Begin to send programming cmd...
+[Debug] [2025-11-2 10:12:18] Send RPC:4
+[Debug] [2025-11-2 10:12:18] Begin to send program data.
+[Debug] [2025-11-2 10:12:18] End to send program data.
+[Debug] [2025-11-2 10:12:18] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 10:12:19] The value of Progress is 6
+[Debug] [2025-11-2 10:12:19] The value of Progress is 10
+[Debug] [2025-11-2 10:12:19] The value of Progress is 15
+[Debug] [2025-11-2 10:12:19] The value of Progress is 20
+[Debug] [2025-11-2 10:12:19] The value of Progress is 25
+[Debug] [2025-11-2 10:12:19] The value of Progress is 30
+[Debug] [2025-11-2 10:12:19] The value of Progress is 35
+[Debug] [2025-11-2 10:12:20] The value of Progress is 40
+[Debug] [2025-11-2 10:12:20] The value of Progress is 45
+[Debug] [2025-11-2 10:12:20] The value of Progress is 50
+[Debug] [2025-11-2 10:12:20] The value of Progress is 55
+[Debug] [2025-11-2 10:12:20] The value of Progress is 60
+[Debug] [2025-11-2 10:12:20] The value of Progress is 65
+[Debug] [2025-11-2 10:12:21] The value of Progress is 70
+[Debug] [2025-11-2 10:12:21] The value of Progress is 75
+[Debug] [2025-11-2 10:12:21] The value of Progress is 80
+[Debug] [2025-11-2 10:12:21] The value of Progress is 85
+[Debug] [2025-11-2 10:12:21] The value of Progress is 90
+[Debug] [2025-11-2 10:12:21] The value of Progress is 95
+[Debug] [2025-11-2 10:12:22] The value of Progress is 100
+[Debug] [2025-11-2 10:12:22] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:12:22] End to send programming cmd.
+[Debug] [2025-11-2 10:12:22] Log::Print : The done bit is 1
+[Debug] [2025-11-2 10:12:22] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:28:48] Begin to send programming cmd...
+[Debug] [2025-11-2 10:28:48] Send RPC:5
+[Debug] [2025-11-2 10:28:48] Begin to send program data.
+[Debug] [2025-11-2 10:28:48] End to send program data.
+[Debug] [2025-11-2 10:28:48] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 10:28:49] The value of Progress is 6
+[Debug] [2025-11-2 10:28:49] The value of Progress is 10
+[Debug] [2025-11-2 10:28:49] The value of Progress is 15
+[Debug] [2025-11-2 10:28:49] The value of Progress is 20
+[Debug] [2025-11-2 10:28:49] The value of Progress is 25
+[Debug] [2025-11-2 10:28:49] The value of Progress is 30
+[Debug] [2025-11-2 10:28:50] The value of Progress is 35
+[Debug] [2025-11-2 10:28:50] The value of Progress is 40
+[Debug] [2025-11-2 10:28:50] The value of Progress is 45
+[Debug] [2025-11-2 10:28:50] The value of Progress is 50
+[Debug] [2025-11-2 10:28:50] The value of Progress is 55
+[Debug] [2025-11-2 10:28:50] The value of Progress is 60
+[Debug] [2025-11-2 10:28:51] The value of Progress is 65
+[Debug] [2025-11-2 10:28:51] The value of Progress is 70
+[Debug] [2025-11-2 10:28:51] The value of Progress is 75
+[Debug] [2025-11-2 10:28:51] The value of Progress is 80
+[Debug] [2025-11-2 10:28:51] The value of Progress is 85
+[Debug] [2025-11-2 10:28:51] The value of Progress is 90
+[Debug] [2025-11-2 10:28:51] The value of Progress is 95
+[Debug] [2025-11-2 10:28:52] The value of Progress is 100
+[Debug] [2025-11-2 10:28:52] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:28:52] End to send programming cmd.
+[Debug] [2025-11-2 10:28:52] Log::Print : The done bit is 1
+[Debug] [2025-11-2 10:28:52] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:37:45] Begin to send programming cmd...
+[Debug] [2025-11-2 10:37:45] Send RPC:6
+[Debug] [2025-11-2 10:37:45] Begin to send program data.
+[Debug] [2025-11-2 10:37:45] End to send program data.
+[Debug] [2025-11-2 10:37:45] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 10:37:45] The value of Progress is 6
+[Debug] [2025-11-2 10:37:45] The value of Progress is 10
+[Debug] [2025-11-2 10:37:45] The value of Progress is 15
+[Debug] [2025-11-2 10:37:45] The value of Progress is 20
+[Debug] [2025-11-2 10:37:46] The value of Progress is 25
+[Debug] [2025-11-2 10:37:46] The value of Progress is 30
+[Debug] [2025-11-2 10:37:46] The value of Progress is 35
+[Debug] [2025-11-2 10:37:46] The value of Progress is 40
+[Debug] [2025-11-2 10:37:46] The value of Progress is 45
+[Debug] [2025-11-2 10:37:46] The value of Progress is 50
+[Debug] [2025-11-2 10:37:46] The value of Progress is 55
+[Debug] [2025-11-2 10:37:47] The value of Progress is 60
+[Debug] [2025-11-2 10:37:47] The value of Progress is 65
+[Debug] [2025-11-2 10:37:47] The value of Progress is 70
+[Debug] [2025-11-2 10:37:47] The value of Progress is 75
+[Debug] [2025-11-2 10:37:47] The value of Progress is 80
+[Debug] [2025-11-2 10:37:47] The value of Progress is 85
+[Debug] [2025-11-2 10:37:48] The value of Progress is 90
+[Debug] [2025-11-2 10:37:48] The value of Progress is 95
+[Debug] [2025-11-2 10:37:48] The value of Progress is 100
+[Debug] [2025-11-2 10:37:48] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:37:48] End to send programming cmd.
+[Debug] [2025-11-2 10:37:48] Log::Print : The done bit is 1
+[Debug] [2025-11-2 10:37:48] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-2 10:38:40] /***************************End Configration***************************/
+[Info] [2025-11-2 10:45:24] /***************************Start Configuration***************************/
+[Info] [2025-11-2 10:45:24] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-2 10:45:24] Version: 146967
+[Info] [2025-11-2 10:45:25] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 10:45:25] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 10:45:27] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-2 10:45:27] Client Local host name:yanxi
+[Debug] [2025-11-2 10:45:27] Client Local Address:192.168.120.1
+[Debug] [2025-11-2 10:45:27] Client Local Address:192.168.72.1
+[Debug] [2025-11-2 10:45:27] Client Local Address:10.28.163.198
+[Debug] [2025-11-2 10:45:27] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-2 10:45:27] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-2 10:45:27] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-2 10:45:27] Finish.
+[Info] [2025-11-2 10:45:27] Connect server succeeded
+[Debug] [2025-11-2 10:45:27] Send RPC:1
+[Debug] [2025-11-2 10:45:27] Send cmd [check version information:40004] OK
+[Debug] [2025-11-2 10:45:27] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-2 10:45:28] Send RPC:2
+[Debug] [2025-11-2 10:45:28] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-2 10:45:28] Begin to send initialize chain cmd...
+[Debug] [2025-11-2 10:45:28] Send RPC:3
+[Debug] [2025-11-2 10:45:28] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-2 10:45:28] End to send initialize chain cmd.
+[Debug] [2025-11-2 10:45:28] COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2025-11-2 10:45:28] Log::Print : COMMAND[check version information] execute successfully, takes 0.4 secs.
+[Debug] [2025-11-2 10:45:29] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 10:45:29] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-2 10:45:29] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 10:45:29] begin the exec of open cable cmd...
+[Debug] [2025-11-2 10:45:29] Begin to deal with chain from server...
+[Debug] [2025-11-2 10:45:29] Begin to set user chain...
+[Debug] [2025-11-2 10:45:29] End to set user chain.
+[Debug] [2025-11-2 10:45:29] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 10:45:29] End to update graphic item and tree item ...
+[Debug] [2025-11-2 10:45:29] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-2 10:45:29] Log::Print : PG2L100H
+[Debug] [2025-11-2 10:45:29] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-11-2 10:45:31] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-2 10:45:31] begin to get device info from CFG file...
+[Debug] [2025-11-2 10:45:31] end to get device info from CFG file...
+[Debug] [2025-11-2 10:45:31] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 10:45:31] End to update graphic item and tree item ...
+[Debug] [2025-11-2 10:45:31] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 10:45:31] End to update graphic item and tree item ...
+[Debug] [2025-11-2 10:45:31] End to deal wiht chain from server.
+[Debug] [2025-11-2 10:45:31] end the exec of open cable cmd.
+[Debug] [2025-11-2 10:45:31] COMMAND[Open config cable] execute successfully, takes 3.2 secs.
+[Debug] [2025-11-2 10:45:31] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.2 secs.
+[Debug] [2025-11-2 10:45:33] Begin to send programming cmd...
+[Debug] [2025-11-2 10:45:33] Send RPC:4
+[Debug] [2025-11-2 10:45:33] Begin to send program data.
+[Debug] [2025-11-2 10:45:33] End to send program data.
+[Debug] [2025-11-2 10:45:33] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 10:45:33] The value of Progress is 6
+[Debug] [2025-11-2 10:45:33] The value of Progress is 10
+[Debug] [2025-11-2 10:45:33] The value of Progress is 15
+[Debug] [2025-11-2 10:45:34] The value of Progress is 20
+[Debug] [2025-11-2 10:45:34] The value of Progress is 25
+[Debug] [2025-11-2 10:45:34] The value of Progress is 30
+[Debug] [2025-11-2 10:45:34] The value of Progress is 35
+[Debug] [2025-11-2 10:45:34] The value of Progress is 40
+[Debug] [2025-11-2 10:45:34] The value of Progress is 45
+[Debug] [2025-11-2 10:45:35] The value of Progress is 50
+[Debug] [2025-11-2 10:45:35] The value of Progress is 55
+[Debug] [2025-11-2 10:45:35] The value of Progress is 60
+[Debug] [2025-11-2 10:45:35] The value of Progress is 65
+[Debug] [2025-11-2 10:45:35] The value of Progress is 70
+[Debug] [2025-11-2 10:45:35] The value of Progress is 75
+[Debug] [2025-11-2 10:45:35] The value of Progress is 80
+[Debug] [2025-11-2 10:45:36] The value of Progress is 85
+[Debug] [2025-11-2 10:45:36] The value of Progress is 90
+[Debug] [2025-11-2 10:45:36] The value of Progress is 95
+[Debug] [2025-11-2 10:45:36] The value of Progress is 100
+[Debug] [2025-11-2 10:45:36] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:45:36] End to send programming cmd.
+[Debug] [2025-11-2 10:45:36] Log::Print : The done bit is 1
+[Debug] [2025-11-2 10:45:36] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:46:24] Begin to send programming cmd...
+[Debug] [2025-11-2 10:46:24] Send RPC:5
+[Debug] [2025-11-2 10:46:24] Begin to send program data.
+[Debug] [2025-11-2 10:46:24] End to send program data.
+[Debug] [2025-11-2 10:46:24] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 10:46:25] The value of Progress is 6
+[Debug] [2025-11-2 10:46:25] The value of Progress is 10
+[Debug] [2025-11-2 10:46:25] The value of Progress is 15
+[Debug] [2025-11-2 10:46:25] The value of Progress is 20
+[Debug] [2025-11-2 10:46:25] The value of Progress is 25
+[Debug] [2025-11-2 10:46:26] The value of Progress is 30
+[Debug] [2025-11-2 10:46:26] The value of Progress is 35
+[Debug] [2025-11-2 10:46:26] The value of Progress is 40
+[Debug] [2025-11-2 10:46:26] The value of Progress is 45
+[Debug] [2025-11-2 10:46:26] The value of Progress is 50
+[Debug] [2025-11-2 10:46:26] The value of Progress is 55
+[Debug] [2025-11-2 10:46:27] The value of Progress is 60
+[Debug] [2025-11-2 10:46:27] The value of Progress is 65
+[Debug] [2025-11-2 10:46:27] The value of Progress is 70
+[Debug] [2025-11-2 10:46:27] The value of Progress is 75
+[Debug] [2025-11-2 10:46:27] The value of Progress is 80
+[Debug] [2025-11-2 10:46:27] The value of Progress is 85
+[Debug] [2025-11-2 10:46:27] The value of Progress is 90
+[Debug] [2025-11-2 10:46:28] The value of Progress is 95
+[Debug] [2025-11-2 10:46:28] The value of Progress is 100
+[Debug] [2025-11-2 10:46:28] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:46:28] End to send programming cmd.
+[Debug] [2025-11-2 10:46:28] Log::Print : The done bit is 1
+[Debug] [2025-11-2 10:46:28] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:54:21] Begin to send programming cmd...
+[Debug] [2025-11-2 10:54:21] Send RPC:6
+[Debug] [2025-11-2 10:54:21] Begin to send program data.
+[Debug] [2025-11-2 10:54:21] End to send program data.
+[Debug] [2025-11-2 10:54:21] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 10:54:22] The value of Progress is 6
+[Debug] [2025-11-2 10:54:22] The value of Progress is 10
+[Debug] [2025-11-2 10:54:22] The value of Progress is 15
+[Debug] [2025-11-2 10:54:22] The value of Progress is 20
+[Debug] [2025-11-2 10:54:22] The value of Progress is 25
+[Debug] [2025-11-2 10:54:23] The value of Progress is 30
+[Debug] [2025-11-2 10:54:23] The value of Progress is 35
+[Debug] [2025-11-2 10:54:23] The value of Progress is 40
+[Debug] [2025-11-2 10:54:23] The value of Progress is 45
+[Debug] [2025-11-2 10:54:23] The value of Progress is 50
+[Debug] [2025-11-2 10:54:23] The value of Progress is 55
+[Debug] [2025-11-2 10:54:23] The value of Progress is 60
+[Debug] [2025-11-2 10:54:24] The value of Progress is 65
+[Debug] [2025-11-2 10:54:24] The value of Progress is 70
+[Debug] [2025-11-2 10:54:24] The value of Progress is 75
+[Debug] [2025-11-2 10:54:24] The value of Progress is 80
+[Debug] [2025-11-2 10:54:24] The value of Progress is 85
+[Debug] [2025-11-2 10:54:24] The value of Progress is 90
+[Debug] [2025-11-2 10:54:25] The value of Progress is 95
+[Debug] [2025-11-2 10:54:25] The value of Progress is 100
+[Debug] [2025-11-2 10:54:25] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 10:54:25] End to send programming cmd.
+[Debug] [2025-11-2 10:54:25] Log::Print : The done bit is 1
+[Debug] [2025-11-2 10:54:25] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-2 10:55:05] /***************************End Configration***************************/
+[Info] [2025-11-2 11:12:37] /***************************Start Configuration***************************/
+[Info] [2025-11-2 11:12:37] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-2 11:12:37] Version: 146967
+[Info] [2025-11-2 11:12:38] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 11:12:38] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-2 11:12:41] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-2 11:12:41] Client Local host name:yanxi
+[Debug] [2025-11-2 11:12:41] Client Local Address:192.168.120.1
+[Debug] [2025-11-2 11:12:41] Client Local Address:192.168.72.1
+[Debug] [2025-11-2 11:12:41] Client Local Address:10.28.163.198
+[Debug] [2025-11-2 11:12:41] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-2 11:12:41] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-2 11:12:41] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-2 11:12:41] Finish.
+[Info] [2025-11-2 11:12:41] Connect server succeeded
+[Debug] [2025-11-2 11:12:41] Send RPC:1
+[Debug] [2025-11-2 11:12:41] Send cmd [check version information:40004] OK
+[Debug] [2025-11-2 11:12:41] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-2 11:12:42] Send RPC:2
+[Debug] [2025-11-2 11:12:42] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-2 11:12:42] Begin to send initialize chain cmd...
+[Debug] [2025-11-2 11:12:42] Send RPC:3
+[Debug] [2025-11-2 11:12:42] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-2 11:12:42] End to send initialize chain cmd.
+[Debug] [2025-11-2 11:12:42] COMMAND[check version information] execute successfully, takes 0.6 secs.
+[Debug] [2025-11-2 11:12:42] Log::Print : COMMAND[check version information] execute successfully, takes 0.6 secs.
+[Debug] [2025-11-2 11:12:43] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 11:12:43] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-2 11:12:43] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-2 11:12:44] begin the exec of open cable cmd...
+[Debug] [2025-11-2 11:12:44] Begin to deal with chain from server...
+[Debug] [2025-11-2 11:12:44] Begin to set user chain...
+[Debug] [2025-11-2 11:12:44] End to set user chain.
+[Debug] [2025-11-2 11:12:44] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 11:12:44] End to update graphic item and tree item ...
+[Debug] [2025-11-2 11:12:44] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-2 11:12:44] Log::Print : PG2L100H
+[Debug] [2025-11-2 11:12:44] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-11-2 11:12:47] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-2 11:12:47] begin to get device info from CFG file...
+[Debug] [2025-11-2 11:12:47] end to get device info from CFG file...
+[Debug] [2025-11-2 11:12:47] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 11:12:47] End to update graphic item and tree item ...
+[Debug] [2025-11-2 11:12:47] Begin to update graphic item and tree item ...
+[Debug] [2025-11-2 11:12:47] End to update graphic item and tree item ...
+[Debug] [2025-11-2 11:12:47] End to deal wiht chain from server.
+[Debug] [2025-11-2 11:12:47] end the exec of open cable cmd.
+[Debug] [2025-11-2 11:12:47] COMMAND[Open config cable] execute successfully, takes 5.0 secs.
+[Debug] [2025-11-2 11:12:47] Log::Print : COMMAND[Open config cable] execute successfully, takes 5.0 secs.
+[Debug] [2025-11-2 11:12:48] Begin to send programming cmd...
+[Debug] [2025-11-2 11:12:48] Send RPC:4
+[Debug] [2025-11-2 11:12:48] Begin to send program data.
+[Debug] [2025-11-2 11:12:48] End to send program data.
+[Debug] [2025-11-2 11:12:48] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 11:12:48] The value of Progress is 6
+[Debug] [2025-11-2 11:12:49] The value of Progress is 10
+[Debug] [2025-11-2 11:12:49] The value of Progress is 15
+[Debug] [2025-11-2 11:12:49] The value of Progress is 20
+[Debug] [2025-11-2 11:12:49] The value of Progress is 25
+[Debug] [2025-11-2 11:12:49] The value of Progress is 30
+[Debug] [2025-11-2 11:12:49] The value of Progress is 35
+[Debug] [2025-11-2 11:12:49] The value of Progress is 40
+[Debug] [2025-11-2 11:12:50] The value of Progress is 45
+[Debug] [2025-11-2 11:12:50] The value of Progress is 50
+[Debug] [2025-11-2 11:12:50] The value of Progress is 55
+[Debug] [2025-11-2 11:12:50] The value of Progress is 60
+[Debug] [2025-11-2 11:12:50] The value of Progress is 65
+[Debug] [2025-11-2 11:12:50] The value of Progress is 70
+[Debug] [2025-11-2 11:12:51] The value of Progress is 75
+[Debug] [2025-11-2 11:12:51] The value of Progress is 80
+[Debug] [2025-11-2 11:12:51] The value of Progress is 85
+[Debug] [2025-11-2 11:12:51] The value of Progress is 90
+[Debug] [2025-11-2 11:12:51] The value of Progress is 95
+[Debug] [2025-11-2 11:12:51] The value of Progress is 100
+[Debug] [2025-11-2 11:12:52] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 11:12:52] End to send programming cmd.
+[Debug] [2025-11-2 11:12:52] Log::Print : The done bit is 1
+[Debug] [2025-11-2 11:12:52] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 11:28:14] Begin to send programming cmd...
+[Debug] [2025-11-2 11:28:14] Send RPC:5
+[Debug] [2025-11-2 11:28:14] Begin to send program data.
+[Debug] [2025-11-2 11:28:14] End to send program data.
+[Debug] [2025-11-2 11:28:14] Send cmd [Program:20002] OK
+[Debug] [2025-11-2 11:28:15] The value of Progress is 6
+[Debug] [2025-11-2 11:28:15] The value of Progress is 10
+[Debug] [2025-11-2 11:28:15] The value of Progress is 15
+[Debug] [2025-11-2 11:28:15] The value of Progress is 20
+[Debug] [2025-11-2 11:28:15] The value of Progress is 25
+[Debug] [2025-11-2 11:28:16] The value of Progress is 30
+[Debug] [2025-11-2 11:28:16] The value of Progress is 35
+[Debug] [2025-11-2 11:28:16] The value of Progress is 40
+[Debug] [2025-11-2 11:28:16] The value of Progress is 45
+[Debug] [2025-11-2 11:28:16] The value of Progress is 50
+[Debug] [2025-11-2 11:28:16] The value of Progress is 55
+[Debug] [2025-11-2 11:28:17] The value of Progress is 60
+[Debug] [2025-11-2 11:28:17] The value of Progress is 65
+[Debug] [2025-11-2 11:28:17] The value of Progress is 70
+[Debug] [2025-11-2 11:28:17] The value of Progress is 75
+[Debug] [2025-11-2 11:28:17] The value of Progress is 80
+[Debug] [2025-11-2 11:28:17] The value of Progress is 85
+[Debug] [2025-11-2 11:28:17] The value of Progress is 90
+[Debug] [2025-11-2 11:28:18] The value of Progress is 95
+[Debug] [2025-11-2 11:28:18] The value of Progress is 100
+[Debug] [2025-11-2 11:28:18] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-2 11:28:18] End to send programming cmd.
+[Debug] [2025-11-2 11:28:18] Log::Print : The done bit is 1
+[Debug] [2025-11-2 11:28:18] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-2 11:28:34] /***************************End Configration***************************/
+[Info] [2025-11-3 20:03:51] /***************************Start Configuration***************************/
+[Info] [2025-11-3 20:03:51] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-3 20:03:51] Version: 146967
+[Info] [2025-11-3 20:03:52] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-3 20:03:52] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-3 20:03:55] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-3 20:03:55] Client Local host name:yanxi
+[Debug] [2025-11-3 20:03:55] Client Local Address:192.168.120.1
+[Debug] [2025-11-3 20:03:55] Client Local Address:192.168.72.1
+[Debug] [2025-11-3 20:03:55] Client Local Address:10.28.163.198
+[Debug] [2025-11-3 20:03:55] Client Local Address:172.16.3.11
+[Debug] [2025-11-3 20:03:55] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-3 20:03:55] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-3 20:03:56] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-3 20:03:56] Finish.
+[Info] [2025-11-3 20:03:56] Connect server succeeded
+[Debug] [2025-11-3 20:03:56] Send RPC:1
+[Debug] [2025-11-3 20:03:56] Send cmd [check version information:40004] OK
+[Debug] [2025-11-3 20:03:56] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-3 20:03:56] Send RPC:2
+[Debug] [2025-11-3 20:03:56] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-3 20:03:56] Begin to send initialize chain cmd...
+[Debug] [2025-11-3 20:03:56] Send RPC:3
+[Debug] [2025-11-3 20:03:56] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-3 20:03:56] End to send initialize chain cmd.
+[Debug] [2025-11-3 20:03:56] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-3 20:03:56] Log::Print : COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-3 20:03:58] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-3 20:03:58] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-3 20:03:58] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-3 20:03:58] begin the exec of open cable cmd...
+[Debug] [2025-11-3 20:03:58] Begin to deal with chain from server...
+[Debug] [2025-11-3 20:03:58] Begin to set user chain...
+[Debug] [2025-11-3 20:03:58] End to set user chain.
+[Debug] [2025-11-3 20:03:58] Begin to update graphic item and tree item ...
+[Debug] [2025-11-3 20:03:58] End to update graphic item and tree item ...
+[Debug] [2025-11-3 20:03:58] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-3 20:03:58] Log::Print : PG2L100H
+[Debug] [2025-11-3 20:03:58] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-11-3 20:04:00] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-3 20:04:00] begin to get device info from CFG file...
+[Debug] [2025-11-3 20:04:00] end to get device info from CFG file...
+[Debug] [2025-11-3 20:04:00] Begin to update graphic item and tree item ...
+[Debug] [2025-11-3 20:04:00] End to update graphic item and tree item ...
+[Debug] [2025-11-3 20:04:00] Begin to update graphic item and tree item ...
+[Debug] [2025-11-3 20:04:00] End to update graphic item and tree item ...
+[Debug] [2025-11-3 20:04:00] End to deal wiht chain from server.
+[Debug] [2025-11-3 20:04:00] end the exec of open cable cmd.
+[Debug] [2025-11-3 20:04:00] COMMAND[Open config cable] execute successfully, takes 3.3 secs.
+[Debug] [2025-11-3 20:04:00] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.3 secs.
+[Debug] [2025-11-3 20:04:01] Begin to send programming cmd...
+[Debug] [2025-11-3 20:04:01] Send RPC:4
+[Debug] [2025-11-3 20:04:01] Begin to send program data.
+[Debug] [2025-11-3 20:04:01] End to send program data.
+[Debug] [2025-11-3 20:04:01] Send cmd [Program:20002] OK
+[Debug] [2025-11-3 20:04:02] The value of Progress is 6
+[Debug] [2025-11-3 20:04:02] The value of Progress is 10
+[Debug] [2025-11-3 20:04:02] The value of Progress is 15
+[Debug] [2025-11-3 20:04:02] The value of Progress is 20
+[Debug] [2025-11-3 20:04:02] The value of Progress is 25
+[Debug] [2025-11-3 20:04:02] The value of Progress is 30
+[Debug] [2025-11-3 20:04:03] The value of Progress is 35
+[Debug] [2025-11-3 20:04:03] The value of Progress is 40
+[Debug] [2025-11-3 20:04:03] The value of Progress is 45
+[Debug] [2025-11-3 20:04:03] The value of Progress is 50
+[Debug] [2025-11-3 20:04:03] The value of Progress is 55
+[Debug] [2025-11-3 20:04:03] The value of Progress is 60
+[Debug] [2025-11-3 20:04:03] The value of Progress is 65
+[Debug] [2025-11-3 20:04:04] The value of Progress is 70
+[Debug] [2025-11-3 20:04:04] The value of Progress is 75
+[Debug] [2025-11-3 20:04:04] The value of Progress is 80
+[Debug] [2025-11-3 20:04:04] The value of Progress is 85
+[Debug] [2025-11-3 20:04:04] The value of Progress is 90
+[Debug] [2025-11-3 20:04:04] The value of Progress is 95
+[Debug] [2025-11-3 20:04:05] The value of Progress is 100
+[Debug] [2025-11-3 20:04:05] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-3 20:04:05] End to send programming cmd.
+[Debug] [2025-11-3 20:04:05] Log::Print : The done bit is 1
+[Debug] [2025-11-3 20:04:05] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-3 20:04:45] Begin to send programming cmd...
+[Debug] [2025-11-3 20:04:45] Send RPC:5
+[Debug] [2025-11-3 20:04:45] Begin to send program data.
+[Debug] [2025-11-3 20:04:45] End to send program data.
+[Debug] [2025-11-3 20:04:45] Send cmd [Program:20002] OK
+[Debug] [2025-11-3 20:04:45] The value of Progress is 6
+[Debug] [2025-11-3 20:04:45] The value of Progress is 10
+[Debug] [2025-11-3 20:04:45] The value of Progress is 15
+[Debug] [2025-11-3 20:04:45] The value of Progress is 20
+[Debug] [2025-11-3 20:04:45] The value of Progress is 25
+[Debug] [2025-11-3 20:04:46] The value of Progress is 30
+[Debug] [2025-11-3 20:04:46] The value of Progress is 35
+[Debug] [2025-11-3 20:04:46] The value of Progress is 40
+[Debug] [2025-11-3 20:04:46] The value of Progress is 45
+[Debug] [2025-11-3 20:04:46] The value of Progress is 50
+[Debug] [2025-11-3 20:04:46] The value of Progress is 55
+[Debug] [2025-11-3 20:04:47] The value of Progress is 60
+[Debug] [2025-11-3 20:04:47] The value of Progress is 65
+[Debug] [2025-11-3 20:04:47] The value of Progress is 70
+[Debug] [2025-11-3 20:04:47] The value of Progress is 75
+[Debug] [2025-11-3 20:04:47] The value of Progress is 80
+[Debug] [2025-11-3 20:04:47] The value of Progress is 85
+[Debug] [2025-11-3 20:04:48] The value of Progress is 90
+[Debug] [2025-11-3 20:04:48] The value of Progress is 95
+[Debug] [2025-11-3 20:04:48] The value of Progress is 100
+[Debug] [2025-11-3 20:04:48] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-3 20:04:48] End to send programming cmd.
+[Debug] [2025-11-3 20:04:48] Log::Print : The done bit is 1
+[Debug] [2025-11-3 20:04:48] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-3 20:19:10] /***************************End Configration***************************/
+[Info] [2025-11-4 00:39:44] /***************************Start Configuration***************************/
+[Info] [2025-11-4 00:39:44] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-4 00:39:44] Version: 146967
+[Info] [2025-11-4 00:39:45] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-4 00:39:45] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-4 00:39:46] /***************************End Configration***************************/
+[Info] [2025-11-4 03:06:03] /***************************Start Configuration***************************/
+[Info] [2025-11-4 03:06:03] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-4 03:06:03] Version: 146967
+[Info] [2025-11-4 03:06:04] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-4 03:06:04] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-4 03:06:06] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-4 03:06:06] Client Local host name:yanxi
+[Debug] [2025-11-4 03:06:06] Client Local Address:192.168.120.1
+[Debug] [2025-11-4 03:06:06] Client Local Address:192.168.72.1
+[Debug] [2025-11-4 03:06:06] Client Local Address:10.28.163.198
+[Debug] [2025-11-4 03:06:06] Client Local Address:172.16.3.11
+[Debug] [2025-11-4 03:06:06] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-4 03:06:06] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-4 03:06:07] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-4 03:06:07] Finish.
+[Info] [2025-11-4 03:06:07] Connect server succeeded
+[Debug] [2025-11-4 03:06:07] Send RPC:1
+[Debug] [2025-11-4 03:06:07] Send cmd [check version information:40004] OK
+[Debug] [2025-11-4 03:06:07] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-4 03:06:07] Send RPC:2
+[Debug] [2025-11-4 03:06:07] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-4 03:06:07] Begin to send initialize chain cmd...
+[Debug] [2025-11-4 03:06:07] Send RPC:3
+[Debug] [2025-11-4 03:06:07] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-4 03:06:07] End to send initialize chain cmd.
+[Debug] [2025-11-4 03:06:07] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-4 03:06:07] Log::Print : COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2025-11-4 03:06:09] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-4 03:06:09] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-4 03:06:09] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-4 03:06:09] begin the exec of open cable cmd...
+[Debug] [2025-11-4 03:06:09] Begin to deal with chain from server...
+[Debug] [2025-11-4 03:06:09] Begin to set user chain...
+[Debug] [2025-11-4 03:06:09] End to set user chain.
+[Debug] [2025-11-4 03:06:09] Begin to update graphic item and tree item ...
+[Debug] [2025-11-4 03:06:09] End to update graphic item and tree item ...
+[Debug] [2025-11-4 03:06:09] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-4 03:06:09] Log::Print : PG2L100H
+[Debug] [2025-11-4 03:06:09] Log::Print : This device configure situation (done bit): 0
+[Info] [2025-11-4 03:06:11] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-4 03:06:11] begin to get device info from CFG file...
+[Debug] [2025-11-4 03:06:11] end to get device info from CFG file...
+[Debug] [2025-11-4 03:06:11] Begin to update graphic item and tree item ...
+[Debug] [2025-11-4 03:06:11] End to update graphic item and tree item ...
+[Debug] [2025-11-4 03:06:11] Begin to update graphic item and tree item ...
+[Debug] [2025-11-4 03:06:11] End to update graphic item and tree item ...
+[Debug] [2025-11-4 03:06:11] End to deal wiht chain from server.
+[Debug] [2025-11-4 03:06:11] end the exec of open cable cmd.
+[Debug] [2025-11-4 03:06:11] COMMAND[Open config cable] execute successfully, takes 4.0 secs.
+[Debug] [2025-11-4 03:06:11] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.0 secs.
+[Debug] [2025-11-4 03:06:13] Begin to send programming cmd...
+[Debug] [2025-11-4 03:06:13] Send RPC:4
+[Debug] [2025-11-4 03:06:13] Begin to send program data.
+[Debug] [2025-11-4 03:06:13] End to send program data.
+[Debug] [2025-11-4 03:06:13] Send cmd [Program:20002] OK
+[Debug] [2025-11-4 03:06:13] The value of Progress is 6
+[Debug] [2025-11-4 03:06:13] The value of Progress is 10
+[Debug] [2025-11-4 03:06:13] The value of Progress is 15
+[Debug] [2025-11-4 03:06:13] The value of Progress is 20
+[Debug] [2025-11-4 03:06:14] The value of Progress is 25
+[Debug] [2025-11-4 03:06:14] The value of Progress is 30
+[Debug] [2025-11-4 03:06:14] The value of Progress is 35
+[Debug] [2025-11-4 03:06:14] The value of Progress is 40
+[Debug] [2025-11-4 03:06:14] The value of Progress is 45
+[Debug] [2025-11-4 03:06:14] The value of Progress is 50
+[Debug] [2025-11-4 03:06:14] The value of Progress is 55
+[Debug] [2025-11-4 03:06:15] The value of Progress is 60
+[Debug] [2025-11-4 03:06:15] The value of Progress is 65
+[Debug] [2025-11-4 03:06:15] The value of Progress is 70
+[Debug] [2025-11-4 03:06:15] The value of Progress is 75
+[Debug] [2025-11-4 03:06:15] The value of Progress is 80
+[Debug] [2025-11-4 03:06:15] The value of Progress is 85
+[Debug] [2025-11-4 03:06:16] The value of Progress is 90
+[Debug] [2025-11-4 03:06:16] The value of Progress is 95
+[Debug] [2025-11-4 03:06:16] The value of Progress is 100
+[Debug] [2025-11-4 03:06:16] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-4 03:06:16] End to send programming cmd.
+[Debug] [2025-11-4 03:06:16] Log::Print : The done bit is 1
+[Debug] [2025-11-4 03:06:16] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-4 03:24:01] Begin to send programming cmd...
+[Debug] [2025-11-4 03:24:01] Send RPC:5
+[Debug] [2025-11-4 03:24:01] Begin to send program data.
+[Debug] [2025-11-4 03:24:01] End to send program data.
+[Debug] [2025-11-4 03:24:01] Send cmd [Program:20002] OK
+[Debug] [2025-11-4 03:24:02] The value of Progress is 6
+[Debug] [2025-11-4 03:24:02] The value of Progress is 10
+[Debug] [2025-11-4 03:24:02] The value of Progress is 15
+[Debug] [2025-11-4 03:24:02] The value of Progress is 20
+[Debug] [2025-11-4 03:24:02] The value of Progress is 25
+[Debug] [2025-11-4 03:24:02] The value of Progress is 30
+[Debug] [2025-11-4 03:24:03] The value of Progress is 35
+[Debug] [2025-11-4 03:24:03] The value of Progress is 40
+[Debug] [2025-11-4 03:24:03] The value of Progress is 45
+[Debug] [2025-11-4 03:24:03] The value of Progress is 50
+[Debug] [2025-11-4 03:24:03] The value of Progress is 55
+[Debug] [2025-11-4 03:24:03] The value of Progress is 60
+[Debug] [2025-11-4 03:24:04] The value of Progress is 65
+[Debug] [2025-11-4 03:24:04] The value of Progress is 70
+[Debug] [2025-11-4 03:24:04] The value of Progress is 75
+[Debug] [2025-11-4 03:24:04] The value of Progress is 80
+[Debug] [2025-11-4 03:24:04] The value of Progress is 85
+[Debug] [2025-11-4 03:24:04] The value of Progress is 90
+[Debug] [2025-11-4 03:24:05] The value of Progress is 95
+[Debug] [2025-11-4 03:24:05] The value of Progress is 100
+[Debug] [2025-11-4 03:24:05] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-4 03:24:05] End to send programming cmd.
+[Debug] [2025-11-4 03:24:05] Log::Print : The done bit is 1
+[Debug] [2025-11-4 03:24:05] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-4 03:24:38] /***************************End Configration***************************/
+[Info] [2025-11-4 18:12:48] /***************************Start Configuration***************************/
+[Info] [2025-11-4 18:12:48] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-4 18:12:48] Version: 146967
+[Info] [2025-11-4 18:12:49] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-4 18:12:49] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-4 18:12:52] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-4 18:12:52] Client Local host name:yanxi
+[Debug] [2025-11-4 18:12:52] Client Local Address:192.168.120.1
+[Debug] [2025-11-4 18:12:52] Client Local Address:192.168.72.1
+[Debug] [2025-11-4 18:12:52] Client Local Address:10.28.163.198
+[Debug] [2025-11-4 18:12:52] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-4 18:12:52] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-4 18:12:52] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-4 18:12:52] Finish.
+[Info] [2025-11-4 18:12:52] Connect server succeeded
+[Debug] [2025-11-4 18:12:52] Send RPC:1
+[Debug] [2025-11-4 18:12:52] Send cmd [check version information:40004] OK
+[Debug] [2025-11-4 18:12:52] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-4 18:12:53] Send RPC:2
+[Debug] [2025-11-4 18:12:53] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-4 18:12:53] Begin to send initialize chain cmd...
+[Debug] [2025-11-4 18:12:53] Send RPC:3
+[Debug] [2025-11-4 18:12:53] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-4 18:12:53] End to send initialize chain cmd.
+[Debug] [2025-11-4 18:12:53] COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2025-11-4 18:12:53] Log::Print : COMMAND[check version information] execute successfully, takes 0.3 secs.
+[Debug] [2025-11-4 18:12:54] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-4 18:12:54] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-4 18:12:54] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Debug] [2025-11-4 18:12:54] begin the exec of open cable cmd...
+[Debug] [2025-11-4 18:12:54] Begin to deal with chain from server...
+[Debug] [2025-11-4 18:12:54] Begin to set user chain...
+[Debug] [2025-11-4 18:12:54] End to set user chain.
+[Debug] [2025-11-4 18:12:54] Begin to update graphic item and tree item ...
+[Debug] [2025-11-4 18:12:54] End to update graphic item and tree item ...
+[Debug] [2025-11-4 18:12:54] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-4 18:12:54] Log::Print : PG2L100H
+[Debug] [2025-11-4 18:12:54] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-11-4 18:12:56] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-4 18:12:56] begin to get device info from CFG file...
+[Debug] [2025-11-4 18:12:56] end to get device info from CFG file...
+[Debug] [2025-11-4 18:12:56] Begin to update graphic item and tree item ...
+[Debug] [2025-11-4 18:12:56] End to update graphic item and tree item ...
+[Debug] [2025-11-4 18:12:56] Begin to update graphic item and tree item ...
+[Debug] [2025-11-4 18:12:56] End to update graphic item and tree item ...
+[Debug] [2025-11-4 18:12:56] End to deal wiht chain from server.
+[Debug] [2025-11-4 18:12:56] end the exec of open cable cmd.
+[Debug] [2025-11-4 18:12:56] COMMAND[Open config cable] execute successfully, takes 3.4 secs.
+[Debug] [2025-11-4 18:12:56] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.4 secs.
+[Debug] [2025-11-4 18:12:57] Begin to send programming cmd...
+[Debug] [2025-11-4 18:12:57] Send RPC:4
+[Debug] [2025-11-4 18:12:57] Begin to send program data.
+[Debug] [2025-11-4 18:12:57] End to send program data.
+[Debug] [2025-11-4 18:12:57] Send cmd [Program:20002] OK
+[Debug] [2025-11-4 18:12:58] The value of Progress is 6
+[Debug] [2025-11-4 18:12:58] The value of Progress is 10
+[Debug] [2025-11-4 18:12:58] The value of Progress is 15
+[Debug] [2025-11-4 18:12:58] The value of Progress is 20
+[Debug] [2025-11-4 18:12:58] The value of Progress is 25
+[Debug] [2025-11-4 18:12:59] The value of Progress is 30
+[Debug] [2025-11-4 18:12:59] The value of Progress is 35
+[Debug] [2025-11-4 18:12:59] The value of Progress is 40
+[Debug] [2025-11-4 18:12:59] The value of Progress is 45
+[Debug] [2025-11-4 18:12:59] The value of Progress is 50
+[Debug] [2025-11-4 18:12:59] The value of Progress is 55
+[Debug] [2025-11-4 18:12:59] The value of Progress is 60
+[Debug] [2025-11-4 18:13:00] The value of Progress is 65
+[Debug] [2025-11-4 18:13:00] The value of Progress is 70
+[Debug] [2025-11-4 18:13:00] The value of Progress is 75
+[Debug] [2025-11-4 18:13:00] The value of Progress is 80
+[Debug] [2025-11-4 18:13:00] The value of Progress is 85
+[Debug] [2025-11-4 18:13:00] The value of Progress is 90
+[Debug] [2025-11-4 18:13:01] The value of Progress is 95
+[Debug] [2025-11-4 18:13:01] The value of Progress is 100
+[Debug] [2025-11-4 18:13:01] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-4 18:13:01] End to send programming cmd.
+[Debug] [2025-11-4 18:13:01] Log::Print : The done bit is 1
+[Debug] [2025-11-4 18:13:01] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-4 18:13:33] /***************************End Configration***************************/
+[Info] [2025-11-4 20:58:12] /***************************Start Configuration***************************/
+[Info] [2025-11-4 20:58:12] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-4 20:58:12] Version: 146967
+[Info] [2025-11-4 20:58:13] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-4 20:58:13] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-4 20:58:15] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-4 20:58:15] Client Local host name:yanxi
+[Debug] [2025-11-4 20:58:15] Client Local Address:192.168.120.1
+[Debug] [2025-11-4 20:58:15] Client Local Address:192.168.72.1
+[Debug] [2025-11-4 20:58:15] Client Local Address:10.28.163.198
+[Debug] [2025-11-4 20:58:15] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-4 20:58:15] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-4 20:58:16] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-4 20:58:16] Finish.
+[Info] [2025-11-4 20:58:16] Connect server succeeded
+[Debug] [2025-11-4 20:58:16] Send RPC:1
+[Debug] [2025-11-4 20:58:16] Send cmd [check version information:40004] OK
+[Debug] [2025-11-4 20:58:16] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-4 20:58:16] Send RPC:2
+[Debug] [2025-11-4 20:58:16] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-4 20:58:16] Begin to send initialize chain cmd...
+[Debug] [2025-11-4 20:58:16] Send RPC:3
+[Debug] [2025-11-4 20:58:16] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-4 20:58:16] End to send initialize chain cmd.
+[Debug] [2025-11-4 20:58:16] COMMAND[check version information] execute successfully, takes 0.2 secs.
+[Debug] [2025-11-4 20:58:16] Log::Print : COMMAND[check version information] execute successfully, takes 0.2 secs.
+[Debug] [2025-11-4 20:58:17] COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2025-11-4 20:58:17] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-4 20:58:17] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.1 secs.
+[Debug] [2025-11-4 20:58:17] begin the exec of open cable cmd...
+[Debug] [2025-11-4 20:58:17] Begin to deal with chain from server...
+[Debug] [2025-11-4 20:58:17] Begin to set user chain...
+[Debug] [2025-11-4 20:58:17] End to set user chain.
+[Debug] [2025-11-4 20:58:17] Begin to update graphic item and tree item ...
+[Debug] [2025-11-4 20:58:17] End to update graphic item and tree item ...
+[Debug] [2025-11-4 20:58:17] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-4 20:58:17] Log::Print : PG2L100H
+[Debug] [2025-11-4 20:58:17] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-11-4 20:58:19] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-4 20:58:19] begin to get device info from CFG file...
+[Debug] [2025-11-4 20:58:19] end to get device info from CFG file...
+[Debug] [2025-11-4 20:58:19] Begin to update graphic item and tree item ...
+[Debug] [2025-11-4 20:58:19] End to update graphic item and tree item ...
+[Debug] [2025-11-4 20:58:19] Begin to update graphic item and tree item ...
+[Debug] [2025-11-4 20:58:19] End to update graphic item and tree item ...
+[Debug] [2025-11-4 20:58:19] End to deal wiht chain from server.
+[Debug] [2025-11-4 20:58:19] end the exec of open cable cmd.
+[Debug] [2025-11-4 20:58:19] COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2025-11-4 20:58:19] Log::Print : COMMAND[Open config cable] execute successfully, takes 3.1 secs.
+[Debug] [2025-11-4 20:58:20] Begin to send programming cmd...
+[Debug] [2025-11-4 20:58:20] Send RPC:4
+[Debug] [2025-11-4 20:58:20] Begin to send program data.
+[Debug] [2025-11-4 20:58:20] End to send program data.
+[Debug] [2025-11-4 20:58:20] Send cmd [Program:20002] OK
+[Debug] [2025-11-4 20:58:20] The value of Progress is 6
+[Debug] [2025-11-4 20:58:20] The value of Progress is 10
+[Debug] [2025-11-4 20:58:21] The value of Progress is 15
+[Debug] [2025-11-4 20:58:21] The value of Progress is 20
+[Debug] [2025-11-4 20:58:21] The value of Progress is 25
+[Debug] [2025-11-4 20:58:21] The value of Progress is 30
+[Debug] [2025-11-4 20:58:21] The value of Progress is 35
+[Debug] [2025-11-4 20:58:21] The value of Progress is 40
+[Debug] [2025-11-4 20:58:22] The value of Progress is 45
+[Debug] [2025-11-4 20:58:22] The value of Progress is 50
+[Debug] [2025-11-4 20:58:22] The value of Progress is 55
+[Debug] [2025-11-4 20:58:22] The value of Progress is 60
+[Debug] [2025-11-4 20:58:22] The value of Progress is 65
+[Debug] [2025-11-4 20:58:22] The value of Progress is 70
+[Debug] [2025-11-4 20:58:23] The value of Progress is 75
+[Debug] [2025-11-4 20:58:23] The value of Progress is 80
+[Debug] [2025-11-4 20:58:23] The value of Progress is 85
+[Debug] [2025-11-4 20:58:23] The value of Progress is 90
+[Debug] [2025-11-4 20:58:23] The value of Progress is 95
+[Debug] [2025-11-4 20:58:23] The value of Progress is 100
+[Debug] [2025-11-4 20:58:24] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-4 20:58:24] End to send programming cmd.
+[Debug] [2025-11-4 20:58:24] Log::Print : The done bit is 1
+[Debug] [2025-11-4 20:58:24] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-4 21:47:34] Begin to send programming cmd...
+[Debug] [2025-11-4 21:47:34] Send RPC:5
+[Debug] [2025-11-4 21:47:34] Begin to send program data.
+[Debug] [2025-11-4 21:47:34] End to send program data.
+[Debug] [2025-11-4 21:47:34] Send cmd [Program:20002] OK
+[Debug] [2025-11-4 21:47:35] The value of Progress is 6
+[Debug] [2025-11-4 21:47:35] The value of Progress is 10
+[Debug] [2025-11-4 21:47:35] The value of Progress is 15
+[Debug] [2025-11-4 21:47:35] The value of Progress is 20
+[Debug] [2025-11-4 21:47:35] The value of Progress is 25
+[Debug] [2025-11-4 21:47:35] The value of Progress is 30
+[Debug] [2025-11-4 21:47:36] The value of Progress is 35
+[Debug] [2025-11-4 21:47:36] The value of Progress is 40
+[Debug] [2025-11-4 21:47:36] The value of Progress is 45
+[Debug] [2025-11-4 21:47:36] The value of Progress is 50
+[Debug] [2025-11-4 21:47:36] The value of Progress is 55
+[Debug] [2025-11-4 21:47:36] The value of Progress is 60
+[Debug] [2025-11-4 21:47:36] The value of Progress is 65
+[Debug] [2025-11-4 21:47:37] The value of Progress is 70
+[Debug] [2025-11-4 21:47:37] The value of Progress is 75
+[Debug] [2025-11-4 21:47:37] The value of Progress is 80
+[Debug] [2025-11-4 21:47:37] The value of Progress is 85
+[Debug] [2025-11-4 21:47:37] The value of Progress is 90
+[Debug] [2025-11-4 21:47:37] The value of Progress is 95
+[Debug] [2025-11-4 21:47:38] The value of Progress is 100
+[Debug] [2025-11-4 21:47:38] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-4 21:47:38] End to send programming cmd.
+[Debug] [2025-11-4 21:47:38] Log::Print : The done bit is 1
+[Debug] [2025-11-4 21:47:38] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-4 22:04:21] Begin to send programming cmd...
+[Debug] [2025-11-4 22:04:21] Send RPC:6
+[Debug] [2025-11-4 22:04:21] Begin to send program data.
+[Debug] [2025-11-4 22:04:21] End to send program data.
+[Debug] [2025-11-4 22:04:21] Send cmd [Program:20002] OK
+[Debug] [2025-11-4 22:04:21] The value of Progress is 6
+[Debug] [2025-11-4 22:04:21] The value of Progress is 10
+[Debug] [2025-11-4 22:04:21] The value of Progress is 15
+[Debug] [2025-11-4 22:04:22] The value of Progress is 20
+[Debug] [2025-11-4 22:04:22] The value of Progress is 25
+[Debug] [2025-11-4 22:04:22] The value of Progress is 30
+[Debug] [2025-11-4 22:04:22] The value of Progress is 35
+[Debug] [2025-11-4 22:04:22] The value of Progress is 40
+[Debug] [2025-11-4 22:04:22] The value of Progress is 45
+[Debug] [2025-11-4 22:04:23] The value of Progress is 50
+[Debug] [2025-11-4 22:04:23] The value of Progress is 55
+[Debug] [2025-11-4 22:04:23] The value of Progress is 60
+[Debug] [2025-11-4 22:04:23] The value of Progress is 65
+[Debug] [2025-11-4 22:04:23] The value of Progress is 70
+[Debug] [2025-11-4 22:04:23] The value of Progress is 75
+[Debug] [2025-11-4 22:04:23] The value of Progress is 80
+[Debug] [2025-11-4 22:04:24] The value of Progress is 85
+[Debug] [2025-11-4 22:04:24] The value of Progress is 90
+[Debug] [2025-11-4 22:04:24] The value of Progress is 95
+[Debug] [2025-11-4 22:04:24] The value of Progress is 100
+[Debug] [2025-11-4 22:04:24] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-4 22:04:24] End to send programming cmd.
+[Debug] [2025-11-4 22:04:24] Log::Print : The done bit is 1
+[Debug] [2025-11-4 22:04:24] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-4 22:29:39] /***************************End Configration***************************/
+[Info] [2025-11-6 00:00:43] /***************************Start Configuration***************************/
+[Info] [2025-11-6 00:00:43] Path: D:/pds right/PDS_2022.2-SP6.4/bin
+[Info] [2025-11-6 00:00:43] Version: 146967
+[Info] [2025-11-6 00:00:44] Current Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-6 00:00:44] PDS Dir Path: C:/Users/27102/Desktop/pds project/project
+[Info] [2025-11-6 00:01:21] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2025-11-6 00:01:21] Client Local host name:yanxi
+[Debug] [2025-11-6 00:01:21] Client Local Address:192.168.120.1
+[Debug] [2025-11-6 00:01:21] Client Local Address:192.168.72.1
+[Debug] [2025-11-6 00:01:21] Client Local Address:10.28.163.198
+[Debug] [2025-11-6 00:01:21] Client Local Address:172.16.3.11
+[Debug] [2025-11-6 00:01:21] Server Address:127.0.0.1, Port:65420
+[Debug] [2025-11-6 00:01:21] Log::Print : Connecting to server[127.0.0.1 : 65420].
+[Info] [2025-11-6 00:01:21] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2025-11-6 00:01:21] Finish.
+[Info] [2025-11-6 00:01:21] Connect server succeeded
+[Debug] [2025-11-6 00:01:21] Send RPC:1
+[Debug] [2025-11-6 00:01:21] Send cmd [check version information:40004] OK
+[Debug] [2025-11-6 00:01:21] Log::Print : Connect to server[127.0.0.1 : 65420] successfully.
+[Debug] [2025-11-6 00:01:22] Send RPC:2
+[Debug] [2025-11-6 00:01:22] Send cmd [get_cable_paras:40010] OK
+[Debug] [2025-11-6 00:01:22] Begin to send initialize chain cmd...
+[Debug] [2025-11-6 00:01:22] Send RPC:3
+[Debug] [2025-11-6 00:01:22] Send cmd [Open config cable:20001] OK
+[Debug] [2025-11-6 00:01:22] End to send initialize chain cmd.
+[Debug] [2025-11-6 00:01:22] COMMAND[check version information] execute successfully, takes 0.7 secs.
+[Debug] [2025-11-6 00:01:22] Log::Print : COMMAND[check version information] execute successfully, takes 0.7 secs.
+[Debug] [2025-11-6 00:01:23] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2025-11-6 00:01:23] Log::Print : The cable List : 
+Cable index 0:USB Cable II/fffffffffffffffe 
+
+[Debug] [2025-11-6 00:01:23] Log::Print : COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Debug] [2025-11-6 00:01:24] begin the exec of open cable cmd...
+[Debug] [2025-11-6 00:01:24] Begin to deal with chain from server...
+[Debug] [2025-11-6 00:01:24] Begin to set user chain...
+[Debug] [2025-11-6 00:01:24] End to set user chain.
+[Debug] [2025-11-6 00:01:24] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 00:01:24] End to update graphic item and tree item ...
+[Debug] [2025-11-6 00:01:24] Log::Print : PANGO USB CABLE II cable driver: D2XX DLL
+[Debug] [2025-11-6 00:01:24] Log::Print : PG2L100H
+[Debug] [2025-11-6 00:01:24] Log::Print : This device configure situation (done bit): 1
+[Info] [2025-11-6 00:01:26] set OpenLastPath: C:/Users/27102/Desktop/pds project/project/generate_bitstream/top.sbit
+[Debug] [2025-11-6 00:01:26] begin to get device info from CFG file...
+[Debug] [2025-11-6 00:01:26] end to get device info from CFG file...
+[Debug] [2025-11-6 00:01:26] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 00:01:26] End to update graphic item and tree item ...
+[Debug] [2025-11-6 00:01:26] Begin to update graphic item and tree item ...
+[Debug] [2025-11-6 00:01:26] End to update graphic item and tree item ...
+[Debug] [2025-11-6 00:01:26] End to deal wiht chain from server.
+[Debug] [2025-11-6 00:01:26] end the exec of open cable cmd.
+[Debug] [2025-11-6 00:01:26] COMMAND[Open config cable] execute successfully, takes 4.1 secs.
+[Debug] [2025-11-6 00:01:26] Log::Print : COMMAND[Open config cable] execute successfully, takes 4.1 secs.
+[Debug] [2025-11-6 00:01:27] Begin to send programming cmd...
+[Debug] [2025-11-6 00:01:27] Send RPC:4
+[Debug] [2025-11-6 00:01:27] Begin to send program data.
+[Debug] [2025-11-6 00:01:27] End to send program data.
+[Debug] [2025-11-6 00:01:27] Send cmd [Program:20002] OK
+[Debug] [2025-11-6 00:01:28] The value of Progress is 6
+[Debug] [2025-11-6 00:01:28] The value of Progress is 10
+[Debug] [2025-11-6 00:01:28] The value of Progress is 15
+[Debug] [2025-11-6 00:01:28] The value of Progress is 20
+[Debug] [2025-11-6 00:01:28] The value of Progress is 25
+[Debug] [2025-11-6 00:01:29] The value of Progress is 30
+[Debug] [2025-11-6 00:01:29] The value of Progress is 35
+[Debug] [2025-11-6 00:01:29] The value of Progress is 40
+[Debug] [2025-11-6 00:01:29] The value of Progress is 45
+[Debug] [2025-11-6 00:01:29] The value of Progress is 50
+[Debug] [2025-11-6 00:01:29] The value of Progress is 55
+[Debug] [2025-11-6 00:01:30] The value of Progress is 60
+[Debug] [2025-11-6 00:01:30] The value of Progress is 65
+[Debug] [2025-11-6 00:01:30] The value of Progress is 70
+[Debug] [2025-11-6 00:01:30] The value of Progress is 75
+[Debug] [2025-11-6 00:01:30] The value of Progress is 80
+[Debug] [2025-11-6 00:01:30] The value of Progress is 85
+[Debug] [2025-11-6 00:01:31] The value of Progress is 90
+[Debug] [2025-11-6 00:01:31] The value of Progress is 95
+[Debug] [2025-11-6 00:01:31] The value of Progress is 100
+[Debug] [2025-11-6 00:01:31] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-6 00:01:31] End to send programming cmd.
+[Debug] [2025-11-6 00:01:31] Log::Print : The done bit is 1
+[Debug] [2025-11-6 00:01:31] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-6 00:02:57] Begin to send programming cmd...
+[Debug] [2025-11-6 00:02:57] Send RPC:5
+[Debug] [2025-11-6 00:02:57] Begin to send program data.
+[Debug] [2025-11-6 00:02:57] End to send program data.
+[Debug] [2025-11-6 00:02:57] Send cmd [Program:20002] OK
+[Debug] [2025-11-6 00:02:58] The value of Progress is 6
+[Debug] [2025-11-6 00:02:58] The value of Progress is 10
+[Debug] [2025-11-6 00:02:58] The value of Progress is 15
+[Debug] [2025-11-6 00:02:58] The value of Progress is 20
+[Debug] [2025-11-6 00:02:58] The value of Progress is 25
+[Debug] [2025-11-6 00:02:59] The value of Progress is 30
+[Debug] [2025-11-6 00:02:59] The value of Progress is 35
+[Debug] [2025-11-6 00:02:59] The value of Progress is 40
+[Debug] [2025-11-6 00:02:59] The value of Progress is 45
+[Debug] [2025-11-6 00:02:59] The value of Progress is 50
+[Debug] [2025-11-6 00:02:59] The value of Progress is 55
+[Debug] [2025-11-6 00:03:00] The value of Progress is 60
+[Debug] [2025-11-6 00:03:00] The value of Progress is 65
+[Debug] [2025-11-6 00:03:00] The value of Progress is 70
+[Debug] [2025-11-6 00:03:00] The value of Progress is 75
+[Debug] [2025-11-6 00:03:00] The value of Progress is 80
+[Debug] [2025-11-6 00:03:00] The value of Progress is 85
+[Debug] [2025-11-6 00:03:01] The value of Progress is 90
+[Debug] [2025-11-6 00:03:01] The value of Progress is 95
+[Debug] [2025-11-6 00:03:01] The value of Progress is 100
+[Debug] [2025-11-6 00:03:01] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-6 00:03:01] End to send programming cmd.
+[Debug] [2025-11-6 00:03:01] Log::Print : The done bit is 1
+[Debug] [2025-11-6 00:03:01] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-6 00:58:01] Begin to send programming cmd...
+[Debug] [2025-11-6 00:58:01] Send RPC:6
+[Debug] [2025-11-6 00:58:01] Begin to send program data.
+[Debug] [2025-11-6 00:58:01] End to send program data.
+[Debug] [2025-11-6 00:58:01] Send cmd [Program:20002] OK
+[Debug] [2025-11-6 00:58:01] The value of Progress is 6
+[Debug] [2025-11-6 00:58:01] The value of Progress is 10
+[Debug] [2025-11-6 00:58:02] The value of Progress is 15
+[Debug] [2025-11-6 00:58:02] The value of Progress is 20
+[Debug] [2025-11-6 00:58:02] The value of Progress is 25
+[Debug] [2025-11-6 00:58:02] The value of Progress is 30
+[Debug] [2025-11-6 00:58:02] The value of Progress is 35
+[Debug] [2025-11-6 00:58:02] The value of Progress is 40
+[Debug] [2025-11-6 00:58:02] The value of Progress is 45
+[Debug] [2025-11-6 00:58:03] The value of Progress is 50
+[Debug] [2025-11-6 00:58:03] The value of Progress is 55
+[Debug] [2025-11-6 00:58:03] The value of Progress is 60
+[Debug] [2025-11-6 00:58:03] The value of Progress is 65
+[Debug] [2025-11-6 00:58:03] The value of Progress is 70
+[Debug] [2025-11-6 00:58:03] The value of Progress is 75
+[Debug] [2025-11-6 00:58:04] The value of Progress is 80
+[Debug] [2025-11-6 00:58:04] The value of Progress is 85
+[Debug] [2025-11-6 00:58:04] The value of Progress is 90
+[Debug] [2025-11-6 00:58:04] The value of Progress is 95
+[Debug] [2025-11-6 00:58:04] The value of Progress is 100
+[Debug] [2025-11-6 00:58:04] COMMAND[Program] execute successfully, takes 3.6 secs.
+[Debug] [2025-11-6 00:58:04] End to send programming cmd.
+[Debug] [2025-11-6 00:58:04] Log::Print : The done bit is 1
+[Debug] [2025-11-6 00:58:04] Log::Print : COMMAND[Program] execute successfully, takes 3.6 secs.
+[Info] [2025-11-6 00:58:45] /***************************End Configration***************************/
